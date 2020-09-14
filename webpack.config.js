@@ -13,46 +13,57 @@ module.exports = {
     resolve: {
         extensions: ['.js', '.jsx']
     },
+    performance: {
+        maxAssetSize: 10000000,
+        maxEntrypointSize: 10000000,
+        hints: "warning"
+    },
     module: {
         rules: [{
-                test: /\.js$/,
-                loader: 'babel-loader',
-                exclude: /node_modules/
+            test: /\.js$/,
+            loader: 'babel-loader',
+            exclude: /node_modules/
+        },
+        {
+            test: /\.(scss|css)$/,
+            exclude: /node_modules/,
+            use: [{
+                loader: 'style-loader'
             },
             {
-                test: /\.(scss|css)$/,
-                exclude: /node_modules/,
-                use: [{
-                        loader: 'style-loader'
-                    },
-                    {
-                        loader: 'css-loader',
-                    },
-                    {
-                        loader: 'sass-loader'
-                    },
-                    {
-                        loader: 'postcss-loader',
-                        options: {
-                            plugins: function () {
-                                return [
-                                    require('autoprefixer')
-                                ];
-                            }
-                        }
+                loader: 'css-loader',
+            },
+            {
+                loader: 'sass-loader'
+            },
+            {
+                loader: 'postcss-loader',
+                options: {
+                    plugins: function () {
+                        return [
+                            require('autoprefixer')
+                        ];
                     }
-                ]
-            },
-            {
-                test: /\.(woff|woff2|eot|ttf)$/i,
-                use: 'url-loader?limit=1024&name=src/font/[name].[ext]'
-            },
-            {
-                test: /\.(jpe?g|png|gif|svg)$/i,
-                use: [
-                    'file-loader?name=src/images/[name].[ext]'
-                  ]
-            },
+                }
+            }
+            ]
+        },
+        {
+            test: /\.(woff|woff2|eot|ttf)$/i,
+            use: 'url-loader?limit=1024&name=src/font/[name].[ext]'
+        },
+        {
+            test: /\.(jpe?g|png|gif)$/i,
+            use: [
+                'file-loader?limit=1024&name=src/img/[name].[ext]'
+            ]
+        },
+        {
+            test: /\.(svg)$/i,
+            use: [
+                'file-loader?limit=1024&name=src/img/icons/[name].[ext]'
+            ]
+        },
         ]
     },
     plugins: [
@@ -64,6 +75,6 @@ module.exports = {
         new webpack.ProvidePlugin({
             $: 'jquery',
             jQuery: 'jquery'
-          }),
+        }),
     ]
 };
