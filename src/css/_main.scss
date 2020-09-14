@@ -1,0 +1,89 @@
+.background-landing {
+  background: url("../img/background.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.landing-set {
+  padding-left: 2.5rem;
+  padding-top: 6rem;
+}
+
+.btn {
+  border-radius: 26px !important;
+  padding: 10px 50px;
+}
+
+.btn-primary {
+  color: #fff !important;
+  background-color: #d7547b !important;
+  border-color: #d7547b !important;
+  transition: transform 0.3s;
+
+  &:hover {
+    opacity: 80%;
+  }
+}
+
+.btn-info {
+  color: #fff !important;
+  background-color: #50bdb9 !important;
+  border-color: #50bdb9 !important;
+  transition: transform 0.3s;
+
+  &:hover {
+    opacity: 80%;
+  }
+}
+
+.icon-set-1 {
+  margin-top: -3px;
+  height: 20px;
+}
+
+.icon-set-2 {
+  margin-top: -6px;
+  height: 20px;
+}
+
+.set-img-1 {
+  position: absolute;
+  z-index: 20;
+  top: 125px;
+  right: 50px;
+  transition: transform 0.8s;
+  width: 400px;
+
+  &:hover {
+    z-index: 50;
+    transform: scale(1.05);
+  }
+}
+
+.set-img-2 {
+  position: absolute;
+  z-index: 10;
+  top: -80px;
+  transition: transform 0.8s;
+  margin-left: 0px;
+  width: 500px;
+
+  &:hover {
+    z-index: 50;
+    transform: scale(1.05);
+  }
+}
+
+.set-img-3 {
+  position: absolute;
+  z-index: 30;
+  top: 250px;
+  right: 350px;
+  transition: transform 0.8s;
+  width: 300px;
+
+  &:hover {
+    z-index: 50;
+    transform: scale(1.05);
+  }
+}
