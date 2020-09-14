@@ -34,3 +34,52 @@
     padding-top: 1rem !important;
   }
 }
+
+// MOBILE PHONE
+@media screen and (max-width: 500px) {
+  .set-img-1 {
+    display: none;
+  }
+
+  .set-img-2 {
+    display: none;
+  }
+  
+  .set-img-3 {
+    display: none;
+  }
+
+  .icon-set-1 {
+    height: 15px !important;
+  }
+  
+  .icon-set-2 {
+    height: 15px !important;
+  }
+
+  .landing-set {
+    padding: 0rem 1rem !important;
+  }
+  
+  .btn{
+    padding: 10px 40px !important;
+  }
+
+  .btn-primary{
+    margin-right: 0px !important;
+    padding-left: 45px !important;
+    padding-right: 45px !important;
+    margin-bottom: 0.5rem !important;
+    font-size: 12px;
+  }
+
+  .btn-info{
+    margin-right: 28px !important;
+    font-size: 12px;
+  }
+
+  .header-nav{
+    margin-left: 25px !important;
+    margin-bottom: 1rem;
+  }
+}
