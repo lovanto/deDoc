@@ -1,0 +1,36 @@
+// FOR LAPTOP WITH 1366x768 or ELSE
+@media screen and (max-width: 1366px) {
+  .nav-item{
+    margin: 0px 30px !important;
+  }
+
+  .header{
+      font-size: 46px !important;
+  }
+
+  .content{
+      font-size: 16px !important;
+  }
+
+  .set-img-1 {
+    top: 130px !important;
+    right: 50px !important;
+    width: 250px !important;
+  }
+
+  .set-img-2 {
+    top: -30px !important;
+    margin-left: 20px !important;
+    width: 350px !important;
+  }
+  
+  .set-img-3 {
+    top: 250px !important;
+    right: 250px !important;
+    width: 150px !important;
+  }
+
+  .landing-set {
+    padding-top: 1rem !important;
+  }
+}
