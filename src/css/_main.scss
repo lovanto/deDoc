@@ -1,17 +1,18 @@
 .background-landing {
-    background: url("../../src/img/background.jpg");
-    background-size: cover;
-    background-attachment: fixed;
-  }
+  background: url("../../src/img/background.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+}
 
 .landing-set {
   padding-left: 2.5rem;
-  padding-top: 6rem;
+  padding-top: 9rem;
 }
 
 .btn {
   border-radius: 26px !important;
   padding: 10px 50px;
+  font-family: Poppins-Regular;
 }
 
 .btn-primary {
@@ -86,4 +87,8 @@
     z-index: 50;
     transform: scale(1.05);
   }
+}
+
+.set-content-1 {
+  margin-left: -1rem !important;
 }

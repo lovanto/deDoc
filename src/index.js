@@ -11,9 +11,12 @@ import './img/people3.jpg';
 import './img/icons/chat.svg';
 import './img/icons/medicine.svg';
 
+import Navigation from './component/navigation.js';
+
 const App = () => {
   return (
     <React.StrictMode>
+      <Navigation />
     </React.StrictMode>
   );
 };
