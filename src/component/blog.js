@@ -10,8 +10,8 @@ const Blog = () => {
                 </div>
                 <div className="container mb-5">
                     <div className="d-flex justify-content-center mb-5">
-                        <input className="form-control form-style col-md-6" type="text" placeholder="Cari artikel berdasarkan judul, dan kategori" />
-                        <button className="btn whiteButton"><img className="icon-set-3" src="./src/img/icons/search.svg" alt="" /> Cari</button>
+                        <input className="form-control form-style col-md-6" type="text" placeholder="Search for articles by title and category" />
+                        <button className="btn whiteButton"><img className="icon-set-3" src="./src/img/icons/search.svg" alt="" /> Search</button>
                     </div>
                     <div className="row">
                         <div className="d-flex justify-content-center mb-5">
