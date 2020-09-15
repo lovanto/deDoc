@@ -9,6 +9,28 @@
   padding-top: 9rem;
 }
 
+.headerBlog {
+  background-color: #d7547b;
+  background-size: cover;
+  height: 600px !important;
+}
+
+.footer{
+  background-color: #EBEBEB;
+  height: 450px !important;
+}
+
+.card{
+  border-radius: 15px 15px 0 0 !important;
+}
+
+.img-bg {
+  background: url("../../src/img/dummy.jpg");
+  background-size: cover;
+  height: 200px !important;
+  border-radius: 15px 15px 0 0 !important;
+}
+
 .btn {
   border-radius: 26px !important;
   padding: 10px 50px;
@@ -37,6 +59,14 @@
   }
 }
 
+.btn-view{
+  border-radius: 0px !important;
+}
+
+.set-padding-0{
+  padding: 0px !important;
+}
+
 .icon-set-1 {
   margin-top: -3px;
   height: 20px;
@@ -44,6 +74,13 @@
 
 .icon-set-2 {
   margin-top: -6px;
+  height: 20px;
+}
+
+.icon-set-3 {
+  margin-top: -6px;
+  margin-right: 10px;
+  margin-left: -10px;
   height: 20px;
 }
 
@@ -91,4 +128,18 @@
 
 .set-content-1 {
   margin-left: -1rem !important;
+}
+
+.whiteButton {
+  background-color: white;
+  border-color: #707070;
+  border-radius: 0px 5px 5px 0px !important;
+  border-left: white;
+}
+
+.form-style {
+  width: 30%;
+  height: 50px;
+  border-radius: 3px 0px 0px 3px !important;
+  border-color: #707070;
 }

@@ -8,7 +8,7 @@ module.exports = {
         path: path.resolve(__dirname, 'dist'),
         filename: 'bundle.js',
         chunkFilename: '[id].js',
-        publicPath: ''
+        publicPath: '/'
     },
     resolve: {
         extensions: ['.js', '.jsx']
@@ -17,6 +17,9 @@ module.exports = {
         maxAssetSize: 10000000,
         maxEntrypointSize: 10000000,
         hints: "warning"
+    },
+    devServer: {
+        historyApiFallback: true,
     },
     module: {
         rules: [{
