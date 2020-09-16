@@ -15,9 +15,9 @@ const Blog = () => {
                     </div>
                     <div className="row">
                         <div className="d-flex justify-content-center mb-5">
-                            <CardBlog/>
-                            <CardBlog/>
-                            <CardBlog/>
+                            <CardBlog link="detailpost"/>
+                            <CardBlog link="detailpost"/>
+                            <CardBlog link="detailpost"/>
                         </div>
                         <div className="col-md-12 d-flex justify-content-center mb-5">
                             <a href="/" className="btn btn-primary btn-view">View More</a>

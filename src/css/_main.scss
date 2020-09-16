@@ -15,6 +15,22 @@
   height: 600px !important;
 }
 
+.backgroundPink {
+  background-color: #d7547b;
+  background-size: cover;
+  height: 50px !important;
+  width: 50px !important;
+  border-radius: 100%;
+}
+
+.img-profile-set{
+  background: url("../../src/img/people2.jpg");
+  background-size: cover;
+  height: 70px !important;
+  width: 70px !important;
+  border-radius: 100%;
+}
+
 .footer{
   background-color: #EBEBEB;
   height: 450px !important;
@@ -80,6 +96,11 @@
   margin-top: -6px;
   margin-right: 10px;
   margin-left: -10px;
+  height: 20px;
+}
+
+.icon-set-4 {
+  padding: 12px 13px;
   height: 20px;
 }
 

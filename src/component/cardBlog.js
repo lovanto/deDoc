@@ -1,6 +1,6 @@
 import React from 'react';
 
-const CardBlog = ({ category = "Category", date = "19-09-2020", title = "Title Post", description = "Ini adalah bagian dari deskripsi singkat tentang postingan ini.", img = "../../src/img/dummy.jpg", link = "" }) => {
+const CardBlog = ({ category = "Category", date = "19-09-2020", title = "Title Post", description = "This is part of a short description of this post in website DeDoc by Admin.", img = "../../src/img/dummy.jpg", link = "" }) => {
     return (
         <div className="card col-md-3 set-padding-0 m-3">
             <div className="img-bg" style={{backgroundImage: 'url("'+ img +'")'}}/>

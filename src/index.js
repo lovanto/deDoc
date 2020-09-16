@@ -15,7 +15,9 @@ import Navigation from './component/navigation.js';
 
 const App = () => {
   return (
+    <React.StrictMode>
       <Navigation />
+    </React.StrictMode>
   );
 };
 
