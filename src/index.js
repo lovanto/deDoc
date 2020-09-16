@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
 
 import 'bootstrap';
@@ -13,12 +13,14 @@ import './img/icons/medicine.svg';
 
 import Navigation from './component/navigation.js';
 
-const App = () => {
-  return (
-    <React.StrictMode>
-      <Navigation />
-    </React.StrictMode>
-  );
+class App extends Component {
+  render() {
+    return (
+      <React.StrictMode>
+        <Navigation />
+      </React.StrictMode>
+    );
+  }
 };
 
 ReactDOM.render(<App />, document.querySelector("#root"));
