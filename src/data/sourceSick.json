@@ -1,0 +1,50 @@
+[
+    {
+        "name": "Covid-19",
+        "url": "Covid19"
+    },
+    {
+        "name": "THT",
+        "url": "THT"
+    },
+    {
+        "name": "Pencernaan",
+        "url": "Pencernaan"
+    },
+    {
+        "name": "Asma",
+        "url": "Asma"
+    },
+    {
+        "name": "Vitamin & Suplemen",
+        "url": "VitaminSuplemen"
+    },
+    {
+        "name": "Pernapasan",
+        "url": "Pernapasan"
+    },
+    {
+        "name": "Hipertensi",
+        "url": "Hipertensi"
+    },
+    {
+        "name": "Diabetes",
+        "url": "Diabetes"
+    },
+    {
+        "name": "Demam",
+        "url": "Demam"
+    },
+    {
+        "name": "Obat Ibu & Anak",
+        "url": "ObatIbuAnak"
+    },
+    {
+        "name": "Vitalitas",
+        "url": "Vitalitas"
+    },
+    {
+        "name": "Alat Kontrasepti",
+        "url": "AlatKontrasepti"
+    }
+]
