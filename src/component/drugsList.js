@@ -8,12 +8,14 @@ const drugsList = ({ dataDrug }) => {
         <div className="row d-flex justify-content-center mb-5">
             {dataDrug.map((drugs) => (
                 <div className="card card-rounded col-md-3 set-padding-0 m-3 mb-5">
-                    <div className="img-bg-2" style={{ backgroundImage: 'url("../src/img/drugs.jpg")' }} />
+                    <div data-toggle="modal" data-target="#exampleModal" to="/detailDrug" className="special-link">
+                        <div className="img-bg-2" style={{ backgroundImage: 'url("../src/img/drugs.jpg")' }} />
+                    </div>
                     <div className="card-body">
                         <div className="ml-4">
-                            <Link to="/detailDrugs" className="special-link">
+                            <div data-toggle="modal" data-target="#exampleModal" to="/detailDrug" className="special-link">
                                 <div className="poppins-bold mb-3">{drugs.name}</div>
-                            </Link>
+                            </div>
                             <p className="sub-detail">Per Strip</p>
                             <p className="sub-detail">Rp. 13.000,-</p>
                             <div className="row">

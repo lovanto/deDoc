@@ -43,6 +43,7 @@ a{
 .banner-medic-2{
   padding-top: 8rem !important;
   padding-bottom: 4rem !important;
+  padding-left: 12rem;
   background-color: transparent !important;
 }
 
@@ -93,6 +94,50 @@ a{
   border: 1px solid #D7547B;
 }
 
+.circle-icon-4{
+  color: #D7547B;
+  font-size: 40px;
+  width: 50px;
+  height: 50px;
+  margin-bottom: 2rem;
+  margin-left: -4rem;
+  border-radius: 100%;
+  border: 1px solid rgba(0, 0, 0, 0.125) !important;
+  background-color: white;
+}
+
+.circle-icon-5{
+  color: #D7547B;
+  font-size: 40px;
+  width: 70px;
+  height: 70px;
+  margin-bottom: 2rem;
+  margin-right: 1rem;
+  padding-top: 3px;
+  padding-left: 20px;
+  border-radius: 100%;
+  border: 1px solid rgba(0, 0, 0, 0.125) !important;
+  background-color: white;
+}
+
+.circle-icon-6{
+  color: #D7547B;
+  font-size: 40px;
+  width: 70px;
+  height: 70px;
+  margin-bottom: 2rem;
+  margin-left: 1rem;
+  padding-top: 3px;
+  padding-left: 25px;
+  border-radius: 100%;
+  border: 1px solid rgba(0, 0, 0, 0.125) !important;
+  background-color: white;
+}
+
+.hayangweh{
+  margin-top: -25px;
+}
+
 .btn-border-pink{
   margin-top: 1rem;
   padding: 10px 0;
@@ -116,6 +161,13 @@ a{
   background-size: cover;
   height: 140px !important;
   margin:  40px 30px 0px 30px !important;
+  border-radius: 0 !important;
+}
+
+.img-bg-3 {
+  background-size: cover;
+  height: 250px !important;
+  margin:  40px !important;
   border-radius: 0 !important;
 }
 
@@ -260,4 +312,33 @@ a{
 
 .special-link{
   color: black !important;
+
+  &:hover{
+    cursor: pointer;
+  }
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: white !important;
+  -webkit-transition: all 1s;
+  -moz-transition: all 1s;
+  transition: all 1s;
+}
+
+.modal-content {
+  border: 0px !important;
+  padding: 100px 10%;
+  margin-left: -15% !important;
+  width: 125%;
+}
+
+.color-gray{
+  color: #676363;
 }
