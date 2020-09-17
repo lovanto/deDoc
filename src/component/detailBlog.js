@@ -5,7 +5,7 @@ const DetailBlog = () => {
     return (
         <div>
             <article>
-                <div className="background-img mb-5" style={{ backgroundImage: 'url("../../src/img/CompleteNutritionFood.jpg")' }}>
+                <div className="background-img mb-5" style={{ backgroundImage: 'url("../src/img/CompleteNutritionFood.jpg")' }}>
                 </div>
                 <div className="container mb-5 p-5">
                     <div className="mr-5 pr-5 ml-5 pl-5">

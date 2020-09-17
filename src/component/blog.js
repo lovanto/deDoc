@@ -30,7 +30,7 @@ class Blog extends Component {
     };
 
     componentDidMount() {
-        fetch('../src/data/sourceArticle.json')
+        fetch('https://raw.githubusercontent.com/lovanto/deDoc/master/src/data/sourceArticle.json')
             .then(res => res.json())
             .then((data) => {
                 this.setState({ dataArticles: data });
