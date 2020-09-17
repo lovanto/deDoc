@@ -7,8 +7,7 @@ module.exports = {
     output: {
         path: path.resolve(__dirname, 'dist'),
         filename: 'bundle.js',
-        chunkFilename: '[id].js',
-        publicPath: '/'
+        chunkFilename: '[id].js'
     },
     resolve: {
         extensions: ['.js', '.jsx']
@@ -52,20 +51,20 @@ module.exports = {
             ]
         },
         {
+            test: /\.json$/,
+            loader: 'json-loader?limit=1024&name=src/data/[name].[ext]'
+          },
+        {
             test: /\.(woff|woff2|eot|ttf)$/i,
             use: 'url-loader?limit=1024&name=src/font/[name].[ext]'
         },
         {
             test: /\.(jpe?g|png|gif)$/i,
-            use: [
-                'file-loader?limit=1024&name=src/img/[name].[ext]'
-            ]
+            use: 'file-loader?limit=1024&name=src/img/[name].[ext]'
         },
         {
             test: /\.(svg)$/i,
-            use: [
-                'file-loader?limit=1024&name=src/img/icons/[name].[ext]'
-            ]
+            use: 'file-loader?limit=1024&name=src/img/icons/[name].[ext]'
         },
         ]
     },
