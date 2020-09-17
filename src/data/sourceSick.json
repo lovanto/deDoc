@@ -1,49 +1,61 @@
 [
     {
+        "id": "0",
         "name": "Covid-19",
         "url": "Covid19"
     },
     {
+        "id": "1",
         "name": "THT",
         "url": "THT"
     },
     {
+        "id": "2",
         "name": "Pencernaan",
         "url": "Pencernaan"
     },
     {
+        "id": "3",
         "name": "Asma",
         "url": "Asma"
     },
     {
+        "id": "4",
         "name": "Vitamin & Suplemen",
         "url": "VitaminSuplemen"
     },
     {
+        "id": "5",
         "name": "Pernapasan",
         "url": "Pernapasan"
     },
     {
+        "id": "6",
         "name": "Hipertensi",
         "url": "Hipertensi"
     },
     {
+        "id": "7",
         "name": "Diabetes",
         "url": "Diabetes"
     },
     {
+        "id": "8",
         "name": "Demam",
         "url": "Demam"
     },
     {
+        "id": "9",
         "name": "Obat Ibu & Anak",
         "url": "ObatIbuAnak"
     },
     {
+        "id": "10",
         "name": "Vitalitas",
         "url": "Vitalitas"
     },
     {
+        "id": "11",
         "name": "Alat Kontrasepti",
         "url": "AlatKontrasepti"
     }

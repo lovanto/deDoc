@@ -8,6 +8,7 @@ import Landing from './landing.js';
 import Blog from './blog.js';
 import Chat from './chat.js';
 import Medicine from './medicine.js';
+import MedicineList from './medicineList.js';
 import Find from './find.js';
 import DetailBlog1 from './detailBlog.js';
 import DetailBlog2 from './detailBlog2.js';
@@ -33,6 +34,9 @@ const Container = () => {
                 </Route>
                 <Route path="/chat">
                     <Chat />
+                </Route>
+                <Route path="/medicineList">
+                    <MedicineList />
                 </Route>
                 <Route path="/medicine">
                     <Medicine />

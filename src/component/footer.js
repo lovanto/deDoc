@@ -26,9 +26,9 @@ const Footer = () => {
                                 <img className="mr-5" src="../src/img/icons/instagram.svg" alt="Instagram" />
                                 <img className="mr-5" src="../src/img/icons/facebook.svg" alt="Facebook" />
                                 <img className="mr-5" src="../src/img/icons/twitter.svg" alt="Twitter" />
-                                <img src="../src/img/icons/youtube.svg" alt="Youtube" />
+                                <img className="mr-5" src="../src/img/icons/youtube.svg" alt="Youtube" />
                             </div>
-                            <div className="d-flex justify-content-end mt-5" align="left">Website by <label className="footer-title ml-2"> DeDoc</label></div>
+                            <div className="d-flex justify-content-end mt-5 mr-5" align="left">Website by <label className="footer-title ml-2"> DeDoc</label></div>
                         </div>
                     </div>
                 </div>
