@@ -1,6 +1,9 @@
 import React from 'react';
+import {
+    Link
+} from "react-router-dom";
 
-const CardBlog = ({ dataArticles, category = "Category", date = "19-09-2020", title = "Title Post", description = "This is part of a short description of this post in website DeDoc by Admin.", img = "../../src/img/dummy.jpg", link = "" }) => {
+const CardBlog = ({ dataArticles }) => {
     return (
         <div className="row d-flex justify-content-center mb-5">
             {dataArticles.map((articles) => (
@@ -10,8 +13,8 @@ const CardBlog = ({ dataArticles, category = "Category", date = "19-09-2020", ti
                         <p className="card-text font-weight-bold category">{articles.category} | {articles.date}</p>
                         <h5 className="card-title">{articles.title}</h5>
                         <p className="card-text">{articles.description}</p>
-                        <div className="d-flex justify-content-center">
-                            <a href={`/` + link} className="btn btn-info">Go somewhere</a>
+                        <div className="d-flex font-weight-bold justify-content-end">
+                            <Link to={`/detailpost/` + articles.url} className="">Read more &gt;&gt;</Link>
                         </div>
                     </div>
                 </div>

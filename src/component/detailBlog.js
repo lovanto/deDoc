@@ -5,57 +5,32 @@ const DetailBlog = () => {
     return (
         <div>
             <article>
-                <div className="headerBlog mb-5">
+                <div className="background-img mb-5" style={{ backgroundImage: 'url("../../src/img/CompleteNutritionFood.jpg")' }}>
                 </div>
                 <div className="container mb-5 p-5">
                     <div className="mr-5 pr-5 ml-5 pl-5">
-                        <p className="sub-detail mb-3">Category Name  |  May 17, 2020</p>
-                        <h2 className="header-detail mb-3">What is the Ideal Design Workflow for UX/UI Designers?</h2>
-                        <p className="written-detail mb-5">Written by Author Name</p>
+                        <p className="sub-detail mb-3">Tips & Trick  |  June 2020</p>
+                        <h2 className="header-detail mb-3">Healthy Eating</h2>
+                        <p className="written-detail mb-5">Written by Lawrence Robinson, Jeanne Segal Ph.D., and Robert Segal, M.A</p>
                     </div>
                     <div className="sub-detail d-flex justify-content-center mr-5 pr-5 ml-5 pl-5">
-                        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
-                        invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et
-                        accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata
-                        sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing
-                        elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,
-                        sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd
-                        gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. <br /><br />
+                        Eating a healthy diet is not about strict limitations, staying unrealistically thin, or depriving yourself of the foods you love. Rather, it’s about feeling great, having more energy, improving your health, and boosting your mood. <br /><br />
 
-                        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
-                        invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et
-                        accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata
-                        sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing
-                        elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,
-                        sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd
-                        gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. <br /><br />
+                        Healthy eating doesn’t have to be overly complicated. If you feel overwhelmed by all the conflicting nutrition and diet advice out there, you’re not alone. It seems that for every expert who tells you a certain food is good for you, you’ll find another saying exactly the opposite. The truth is that while some specific foods or nutrients have been shown to have a beneficial effect on mood, it’s your overall dietary pattern that is most important. The cornerstone of a healthy diet should be to replace processed food with real food whenever possible. Eating food that is as close as possible to the way nature made it can make a huge difference to the way you think, look, and feel. <br /><br />
 
-                        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
-                        invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et
-                        accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata
-                        sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing
-                        elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,
-                        sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd
-                        gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. <br /><br />
+                        By using these simple tips, you can cut through the confusion and learn how to create—and stick to—a tasty, varied, and nutritious diet that is as good for your mind as it is for your body. <br /><br />
 
-                        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
-                        invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et
-                        accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata
-                        sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing
-                        elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,
-                        sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd
-                        gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. <br /><br />
+                        Prepare more of your own meals. Cooking more meals at home can help you take charge of what you’re eating and better monitor exactly what goes into your food. You’ll eat fewer calories and avoid the chemical additives, added sugar, and unhealthy fats of packaged and takeout foods that can leave you feeling tired, bloated, and irritable, and exacerbate symptoms of depression, stress, and anxiety. <br /><br />
 
-                        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
-                        invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et
-                        accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata
-                        sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing
-                        elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,
-                        sed diam voluptua. <br /><br />
+                        Make the right changes. When cutting back on unhealthy foods in your diet, it’s important to replace them with healthy alternatives. Replacing dangerous trans fats with healthy fats (such as switching fried chicken for grilled salmon) will make a positive difference to your health. Switching animal fats for refined carbohydrates, though (such as switching your breakfast bacon for a donut), won’t lower your risk for heart disease or improve your mood. <br /><br />
 
-                        At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea
-                        takimata sanctus est Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet, consetetur
-                        sadipscing elitr. <br /><br />
+                        Read the labels. It’s important to be aware of what’s in your food as manufacturers often hide large amounts of sugar or unhealthy fats in packaged food, even food claiming to be healthy. <br /><br />
+
+                        Focus on how you feel after eating. This will help foster healthy new habits and tastes. The healthier the food you eat, the better you’ll feel after a meal. The more junk food you eat, the more likely you are to feel uncomfortable, nauseous, or drained of energy. <br /><br />
+
+                        Drink plenty of water. Water helps flush our systems of waste products and toxins, yet many of us go through life dehydrated—causing tiredness, low energy, and headaches. It’s common to mistake thirst for hunger, so staying well hydrated will also help you make healthier food choices. <br /><br />
+
+                        Source: https://www.helpguide.org/articles/healthy-eating/healthy-eating.htm
                     </div>
                     <div className="mr-5 pr-5 ml-5 pl-5 mt-5">
                         <div className="row">

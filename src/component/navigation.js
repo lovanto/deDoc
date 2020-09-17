@@ -1,6 +1,6 @@
 import React from 'react';
 import {
-    BrowserRouter as Router,
+    HashRouter,
     Link
 } from "react-router-dom";
 
@@ -8,7 +8,7 @@ import Container from './container.js';
 
 const Navigation = () => {
     return (
-        <Router>
+        <HashRouter>
             <header>
                 <nav className="navbar navbar-expand-lg navbar-light nav-font">
                     <button
@@ -43,7 +43,7 @@ const Navigation = () => {
                 </nav>
             </header>
             <Container />
-        </Router>
+        </HashRouter>
     );
 };
 

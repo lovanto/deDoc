@@ -9,30 +9,38 @@ import Blog from './blog.js';
 import Chat from './chat.js';
 import Medicine from './medicine.js';
 import Find from './find.js';
-import DetailBlog from './detailBlog.js';
+import DetailBlog1 from './detailBlog.js';
+import DetailBlog2 from './detailBlog2.js';
+import DetailBlog3 from './detailBlog3.js';
 
 const Container = () => {
     return (
-        <Switch>
-            <Route exact path="/">
-                <Landing />
-            </Route>
-            <Route path="/blog">
-                <Blog />
-            </Route>
-            <Route path="/detailpost">
-                <DetailBlog />
-            </Route>
-            <Route path="/chat">
-                <Chat />
-            </Route>
-            <Route path="/medicine">
-                <Medicine />
-            </Route>
-            <Route path="/find">
-                <Find />
-            </Route>
-        </Switch>
+            <Switch>
+                <Route exact path="/">
+                    <Landing />
+                </Route>
+                <Route path="/blog">
+                    <Blog />
+                </Route>
+                <Route path="/detailpost/HealthyEating">
+                    <DetailBlog1 />
+                </Route>
+                <Route path="/detailpost/HowtoLiveaHealthierLifestyle">
+                    <DetailBlog2 />
+                </Route>
+                <Route path="/detailpost/HowtoEaseIntoaHealthyDiet">
+                    <DetailBlog3 />
+                </Route>
+                <Route path="/chat">
+                    <Chat />
+                </Route>
+                <Route path="/medicine">
+                    <Medicine />
+                </Route>
+                <Route path="/find">
+                    <Find />
+                </Route>
+            </Switch>
     );
 };
 

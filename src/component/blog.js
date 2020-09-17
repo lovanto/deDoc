@@ -7,12 +7,12 @@ class Blog extends Component {
         return (
             <div>
                 <article>
-                    <div className="headerBlog mb-5">
+                    <div className="background-img mb-5" style={{ backgroundImage: 'url("../src/img/doctor.jpg")' }}>
                     </div>
                     <div className="container mb-5">
                         <div className="d-flex justify-content-center mb-5">
                             <input className="form-control form-style col-md-6" type="text" placeholder="Search for articles by title and category" />
-                            <button className="btn whiteButton"><img className="icon-set-3" src="./src/img/icons/search.svg" alt="" /> Search</button>
+                            <button className="btn whiteButton"><img className="icon-set-3" src="../src/img/icons/search.svg" alt="" /> Search</button>
                         </div>
                         <CardBlog dataArticles={this.state.dataArticles} />
                         <div className="col-md-12 d-flex justify-content-center mb-5">
