@@ -5,7 +5,7 @@
         "date": "June 2020",
         "category": "Tips & Trick",
         "author": "Lawrence Robinson, Jeanne Segal Ph.D., and Robert Segal, M.A",
-        "img": "../../src/img/CompleteNutritionFood.jpg",
+        "img": "../src/img/CompleteNutritionFood.jpg",
         "description": "Confused by all the conflicting nutrition advice out there? These simple tips can show you how to plan, enjoy, and stick to a healthy diet.",
         "source": "https://www.helpguide.org/articles/healthy-eating/healthy-eating.htm",
         "url": "HealthyEating"
@@ -16,7 +16,7 @@
         "date": "July 27, 2020",
         "category": "Health and Safety",
         "author": "Rachel Goldman, PhD",
-        "img": "../../src/img/goodlife.jpg",
+        "img": "../src/img/goodlife.jpg",
         "description": "Creating a healthy lifestyle doesn't have to mean drastic changes can have a big impact.",
         "source": "https://www.verywellfit.com/simple-ways-to-live-a-healthy-lifestyle-1231193",
         "url": "HowtoLiveaHealthierLifestyle"
@@ -27,7 +27,7 @@
         "date": "March 30, 2020",
         "category": "Basics Health",
         "author": " Jonathan Valdez, RDN, CDE, CPT",
-        "img": "../../src/img/basics.jpg",
+        "img": "../src/img/basics.jpg",
         "description": "Is your diet less than healthy with too much fat, sugar, sodium, and processed foods? Don't feel bad.",
         "source": "https://www.verywellfit.com/easing-into-a-healthy-diet-2507090",
         "url": "HowtoEaseIntoaHealthyDiet"
