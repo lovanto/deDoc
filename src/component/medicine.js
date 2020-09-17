@@ -3,9 +3,9 @@ import Footer from './footer.js';
 
 const Medicine = () => {
     return (
-        <div>
+        <div className="background-landing">
             <article>
-                <div className="col-md-12 text-center m-5 p-5 banner-medic">
+                <div className="col-md-12 text-center banner-medic">
                     <div className="header">Pilih Obat Sesuai Kategori</div>
                     <div className="sub-header">Pilih Obat Sesuai Kategori</div>
                 </div>

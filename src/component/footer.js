@@ -1,5 +1,9 @@
 import React from 'react';
 
+import {
+    Link
+} from "react-router-dom";
+
 const Footer = () => {
     return (
         <footer>
@@ -8,14 +12,14 @@ const Footer = () => {
                     <div className="row pt-5">
                         <div className="col-md-3">
                             <div className="footer-title mb-5">Sitemap</div>
-                            <div className="mb-5"><a className="footer-text" href="/">Home</a></div>
-                            <div className="mb-5"><a className="footer-text" href="/chat">Chat Doctor</a></div>
-                            <div className="mb-5"><a className="footer-text" href="/medicine">Vitamis & Medicine</a></div>
-                            <div className="mb-5"><a className="footer-text" href="/find">Find Doctor</a></div>
+                            <div className="mb-5"><Link className="footer-text" to="/">Home</Link></div>
+                            <div className="mb-5"><Link className="footer-text" to="/chat">Chat Doctor</Link></div>
+                            <div className="mb-5"><Link className="footer-text" to="/medicine">Vitamis & Medicine</Link></div>
+                            <div className="mb-5"><Link className="footer-text" to="/find">Find Doctor</Link></div>
                         </div>
                         <div className="col-md-3">
                             <div className="footer-title mb-5">Information</div>
-                            <div className="mb-5"><a className="footer-text" href="/blog">Blog</a></div>
+                            <div className="mb-5"><Link className="footer-text" to="/blog">Blog</Link></div>
                         </div>
                         <div className="col-md-6 mt-5 mb-5">
                             <div className="d-flex justify-content-end mt-4 mb-5 pb-5">
