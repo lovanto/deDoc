@@ -1,15 +1,32 @@
 // FOR LAPTOP WITH 1366x768 or ELSE
 @media screen and (max-width: 1366px) {
-  .nav-item{
+  .nav-item {
     margin: 0px 30px !important;
   }
 
-  .header{
-      font-size: 46px !important;
+  .searchMedicine {
+    min-width: 400px;
   }
 
-  .content{
-      font-size: 16px !important;
+  .divSearch {
+    margin-left: -2rem !important;
+  }
+
+  .modal-content {
+    margin-top: -5% !important;
+    margin-left: -10% !important;
+  }
+
+  .circle-icon-4 {
+    margin-left: -2rem !important;
+  }
+
+  .header {
+    font-size: 46px !important;
+  }
+
+  .content {
+    font-size: 16px !important;
   }
 
   .set-img-1 {
@@ -23,7 +40,7 @@
     margin-left: 20px !important;
     width: 350px !important;
   }
-  
+
   .set-img-3 {
     top: 250px !important;
     right: 250px !important;
@@ -44,7 +61,7 @@
   .set-img-2 {
     display: none;
   }
-  
+
   .set-img-3 {
     display: none;
   }
@@ -52,7 +69,7 @@
   .icon-set-1 {
     height: 15px !important;
   }
-  
+
   .icon-set-2 {
     height: 15px !important;
   }
@@ -60,12 +77,12 @@
   .landing-set {
     padding: 3rem 1rem !important;
   }
-  
-  .btn{
+
+  .btn {
     padding: 10px 40px !important;
   }
 
-  .btn-primary{
+  .btn-primary {
     margin-right: 0px !important;
     padding-left: 45px !important;
     padding-right: 45px !important;
@@ -73,13 +90,93 @@
     font-size: 12px;
   }
 
-  .btn-info{
+  .btn-info {
     margin-right: 28px !important;
     font-size: 12px;
   }
 
-  .header-nav{
+  .header-nav {
     margin-left: 25px !important;
     margin-bottom: 1rem;
+  }
+
+  .footer {
+    padding-left: 1.5rem !important;
+  }
+
+  .searchBlog {
+    width: 400px !important;
+  }
+
+  #searchText {
+    display: none !important;
+  }
+
+  .icon-set-3 {
+    height: 15px !important;
+    margin-top: -4px !important;
+    margin-right: 0px !important;
+  }
+
+  .setSearch {
+    width: 10px !important;
+  }
+
+  .postSize {
+    width: 100% !important;
+    max-width: 100% !important;
+    flex: 0 0 80% !important;
+  }
+
+  .header {
+    font-size: 30px !important;
+    margin-left: -2rem !important;
+  }
+
+  .sub-header{
+      font-size: 20px !important;
+      margin-left: -1rem !important;
+  }
+
+  .banner-medic {
+    padding-top: 7rem !important;
+    padding-bottom: 3rem !important;
+    background-color: transparent !important;
+  }
+
+  .circle-btn {
+    width: 100px !important;
+    height: 100px !important;
+  }
+
+  .searchMedicine {
+    min-width: 230% !important;
+    margin-left: -5rem !important;
+  }
+
+  .divSearch {
+    margin-left: -10rem !important;
+  }
+  
+  .modal-content {
+    margin-top: -10% !important;
+    margin-left: -5% !important;
+    width: 110% !important;
+  }
+
+  .circle-icon-4 {
+    margin-left: 0rem !important;
+  }
+
+  .btn-border-pink{
+    margin: 0px 15px;
+  }
+
+  .circle-icon-5{
+    display: none;
+  }
+
+  .circle-icon-6{
+    display: none;
   }
 }

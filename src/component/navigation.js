@@ -13,7 +13,7 @@ const Navigation = () => {
                 <div className="background-landing">
                     <nav className="navbar navbar-expand-lg navbar-light nav-font">
                         <button
-                            className="navbar-toggler"
+                            className="navbar-toggler mt-3 mb-3"
                             type="button"
                             data-toggle="collapse"
                             data-target="#navbarTogglerDemo01"

@@ -11,8 +11,8 @@ class Blog extends Component {
                     </div>
                     <div className="container mb-5">
                         <div className="d-flex justify-content-center mb-5">
-                            <input className="form-control form-style col-md-6" type="text" placeholder="Search for articles by title and category" />
-                            <button className="btn whiteButton"><img className="icon-set-3" src="../src/img/icons/search.svg" alt="" /> Search</button>
+                            <input className="form-control form-style col-md-6 searchBlog" type="text" placeholder="Search for articles by title and category" />
+                            <button className="btn whiteButton setSearch"><img className="icon-set-3" src="../src/img/icons/search.svg" alt="" /><label id="searchText">Search</label></button>
                         </div>
                         <CardBlog dataArticles={this.state.dataArticles} />
                         <div className="col-md-12 d-flex justify-content-center mb-5">

@@ -8,11 +8,11 @@ class Medicine extends Component {
         return (
             <div className="background-landing" >
                 <article>
-                    <div className="col-md-8 banner-medic-2">
+                    <div className="col-md-8 banner-medic-2 divSearch">
                         <div className="header ml-5 pl-5 mb-4">Pernapasan</div>
                         <div className="d-flex justify-content-start ml-5 pl-5">
-                            <input className="form-control form-style col-md-6" type="text" placeholder="Search for articles by title and category" />
-                            <button className="btn whiteButton"><img className="icon-set-3" src="../src/img/icons/search.svg" alt="" /> Search</button>
+                            <input className="form-control form-style col-md-6 searchMedicine" type="text" placeholder="Search for articles by title and category" />
+                            <button className="btn whiteButton"><img className="icon-set-3" src="../src/img/icons/search.svg" alt="" /><label id="searchText" style={{marginTop:'10px !important'}}>Search</label></button>
                         </div>
                     </div>
                     <div className="d-flex justify-content-center">
