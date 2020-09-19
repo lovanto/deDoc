@@ -36,7 +36,13 @@ a {
 
 .banner-medic {
   padding-top: 10rem;
-  padding-bottom: 12rem;
+  padding-bottom: 6rem;
+  background-color: transparent !important;
+}
+
+.banner-doctor {
+  padding-top: 10rem;
+  padding-bottom: 3rem;
   background-color: transparent !important;
 }
 
@@ -351,4 +357,41 @@ a {
 .postSize {
   flex: 0 0 30%;
   max-width: 30%;
+}
+
+.height-set-1{
+  height: 450px;
+}
+
+.card-doctor{
+  border-radius: 30px !important;
+  box-shadow: 1px 2px 3px 2px rgba(0, 0, 0, 0.05) !important;
+  background-color: #FCFCFC;
+}
+
+.img-doctor{
+  height: 120px;
+  width: 120px;
+  border-radius: 100%;
+  border: 1px solid rgba(0, 0, 0, 0.125) !important;
+  background-position: center;
+  background-size: cover;
+}
+
+.icon-online{
+  width: 30px;
+  height: 30px;
+  margin-top: 5.5rem;
+  margin-left: 5rem;
+  border-radius: 100%;
+  background-color: #5AF894;
+}
+
+.icon-offline{
+  width: 30px;
+  height: 30px;
+  margin-top: 5.5rem;
+  margin-left: 5rem;
+  border-radius: 100%;
+  background-color: #f85a5a;
 }

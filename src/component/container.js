@@ -9,7 +9,6 @@ import Blog from './blog.js';
 import Chat from './chat.js';
 import Medicine from './medicine.js';
 import MedicineList from './medicineList.js';
-import Find from './find.js';
 import DetailBlog1 from './detailBlog.js';
 import DetailBlog2 from './detailBlog2.js';
 import DetailBlog3 from './detailBlog3.js';
@@ -40,9 +39,6 @@ const Container = () => {
                 </Route>
                 <Route path="/medicine">
                     <Medicine />
-                </Route>
-                <Route path="/find">
-                    <Find />
                 </Route>
             </Switch>
     );

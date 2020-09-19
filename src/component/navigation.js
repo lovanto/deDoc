@@ -33,11 +33,8 @@ const Navigation = () => {
                                 <li className="nav-item mr-5 ml-5">
                                     <Link className="nav-link" to="/chat">Chat Doctor</Link>
                                 </li>
-                                <li className="nav-item mr-5 ml-5">
+                                <li className="nav-item ml-5">
                                     <Link className="nav-link" to="/medicine">Vitamin & Medicine</Link>
-                                </li>
-                                <li className="nav-item mr-5 ml-5">
-                                    <Link className="nav-link" to="/find">Find Doctor</Link>
                                 </li>
                             </ul>
                         </div>

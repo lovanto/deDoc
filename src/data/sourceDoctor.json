@@ -1,0 +1,26 @@
+[
+    {
+        "id": "0",
+        "name": "Dr. Lauran Sitenggar S.pd",
+        "doctor": "Dokter Umum",
+        "status": "online",
+        "img": "../src/img/people3.jpg",
+        "percentase": "98%"
+    },
+    {
+        "id": "1",
+        "name": "Dr. Imanuel Jagad S.pd",
+        "doctor": "Dokter Gigi",
+        "status": "offline",
+        "img": "../src/img/people2.jpg",
+        "percentase": "87%"
+    },
+    {
+        "id": "2",
+        "name": "Dr. Michele Angeloo S.pd",
+        "doctor": "Dokter THT",
+        "status": "online",
+        "img": "../src/img/people1.jpg",
+        "percentase": "90%"
+    }
+]
