@@ -28,4 +28,4 @@ const CardDoctor = ({ dataDoctor }) => {
     );
 };
 
-export default CardDoctor;
+export default CardDoctor ;

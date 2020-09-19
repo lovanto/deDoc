@@ -22,5 +22,13 @@
         "status": "online",
         "img": "../src/img/people1.jpg",
         "percentase": "90%"
-    }
+    },
+    {
+        "id": "3",
+        "name": "Dr. Lauran Sitenggar S.pd",
+        "doctor": "Dokter Umum",
+        "status": "online",
+        "img": "../src/img/people3.jpg",
+        "percentase": "98%"
+    },
 ]

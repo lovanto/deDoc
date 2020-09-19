@@ -1,11 +1,7 @@
 import React, { Component } from 'react';
-import {
-    Link
-} from "react-router-dom";
-
 import Footer from './footer.js';
-import CardDoctor from './cardDoctor.js';
-import DrugOption from './drugsOption.js';
+
+import CardDoctor from './cardDoctor2.js';
 
 class Chat extends Component {
     render() {
@@ -18,27 +14,16 @@ class Chat extends Component {
                     </div>
                     <div className="d-flex justify-content-center mb-5">
                         <input className="form-control form-style col-md-4" type="text" placeholder="Search for articles by title and category" />
-                        <Link to="/findDoctor" className="btn whiteButton setSearch"><img className="icon-set-3" src="../src/img/icons/search.svg" alt="" /><label id="searchText" style={{marginTop:'13px'}}>Search</label></Link>
+                        <button className="btn whiteButton setSearch"><img className="icon-set-3" src="../src/img/icons/search.svg" alt="" /><label id="searchText">Search</label></button>
                     </div>
                     <div className="d-flex justify-content-center">
                         <CardDoctor dataDoctor={this.state.dataDoctor} />
                     </div>
-                    <div className="container height-set-1" style={{ marginTop: '-125px' }}>
-                        <div className="col-md-12 text-center banner-medic">
-                            <div className="header2">Pilih dokter yang sesuai <br /> dengan kebutuhan medis anda</div>
-                            <div className="sub-header2 mt-4">Pilih Dokter sesuai dengan diagnosa penyakit anda</div>
-                        </div>
+                    <div className="d-flex justify-content-center">
+                        <CardDoctor dataDoctor={this.state.dataDoctor} />
                     </div>
-                    <div className="d-flex justify-content-center mb-5">
-                        <div className="col-md-8">
-                            <div className="card card-rounded">
-                                <div className="card-body">
-                                    <div className="row mr-4 ml-4 mt-3 mb-3 d-flex justify-content-center">
-                                        <DrugOption dataDrug={this.state.dataDrugs} />
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                    <div className="d-flex justify-content-center">
+                        <CardDoctor dataDoctor={this.state.dataDoctor} />
                     </div>
                     <div className="d-flex justify-content-center mb-5 pb-5">
                         <div className="col-md-8">
@@ -67,8 +52,7 @@ class Chat extends Component {
     }
 
     state = {
-        dataDoctor: [],
-        dataDrugs: []
+        dataDoctor: []
     };
 
     componentDidMount() {
@@ -76,14 +60,6 @@ class Chat extends Component {
             .then(res => res.json())
             .then((data) => {
                 this.setState({ dataDoctor: data });
-                console.log(data);
-            })
-            .catch(console.log)
-
-        fetch('https://raw.githubusercontent.com/lovanto/deDoc/master/src/data/sourceSick.json')
-            .then(res => res.json())
-            .then((data) => {
-                this.setState({ dataDrugs: data });
                 console.log(data);
             })
             .catch(console.log)

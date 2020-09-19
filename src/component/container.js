@@ -12,6 +12,7 @@ import MedicineList from './medicineList.js';
 import DetailBlog1 from './detailBlog.js';
 import DetailBlog2 from './detailBlog2.js';
 import DetailBlog3 from './detailBlog3.js';
+import FindDoctor from './findDoctor.js';
 
 const Container = () => {
     return (
@@ -39,6 +40,9 @@ const Container = () => {
                 </Route>
                 <Route path="/medicine">
                     <Medicine />
+                </Route>
+                <Route path="/findDoctor">
+                    <FindDoctor />
                 </Route>
             </Switch>
     );

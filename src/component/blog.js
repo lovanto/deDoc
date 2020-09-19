@@ -16,7 +16,7 @@ class Blog extends Component {
                         </div>
                         <CardBlog dataArticles={this.state.dataArticles} />
                         <div className="col-md-12 d-flex justify-content-center mb-5">
-                            <a href="/" className="btn btn-primary btn-view">View More</a>
+                            <button className="btn btn-primary btn-view">View More</button>
                         </div>
                     </div>
                 </article>
