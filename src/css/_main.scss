@@ -436,6 +436,11 @@ a {
   background-color: #f85a5a;
 }
 
+.dwsefgdwsefg{
+  flex: 0 0 30%;
+  max-width: 30%;
+}
+
 .contactList{
   padding: 30px 0 30px 30px;
   border-right: 1px solid #F8F8F8;
@@ -486,7 +491,8 @@ a {
 .footer-chat{
   background-color: #ffffff;
   padding: 17px 40px;
-  border: 1px solid #F8F8F8;
+  border: 1px solid #d8d8d8;
+  border-top: 0px solid #F1F1F1;
 }
 
 .bubble-chat{
@@ -517,12 +523,24 @@ a {
   float: right;
 }
 
+.awdwada{
+  display: block;
+}
+
+.awdwada2{
+  display: none;
+}
+
 .odd{
   float: left;
 }
 
 .even{
   float: right;
+}
+
+.backbtn{
+  display: none;
 }
 
 .custom-size-1{

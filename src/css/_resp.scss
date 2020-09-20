@@ -4,6 +4,14 @@
     margin: 0px 30px !important;
   }
 
+  .bubble-chat{
+    max-width: 500px !important;
+  }
+
+  .bubble-chat-2{
+    max-width: 500px !important;
+  }
+
   .searchMedicine {
     min-width: 400px;
   }
@@ -50,10 +58,117 @@
   .landing-set {
     padding-top: 4rem !important;
   }
+
+  .wefrgt {
+    margin-top: 20px !important;
+    margin-left: 80% !important;
+  }
 }
 
 // MOBILE PHONE
 @media screen and (max-width: 500px) {
+  .dwsefgdwsefg {
+    flex: 0 0 100% !important;
+    max-width: 100% !important;
+  }
+
+  .bubble-chat {
+    width: 250px !important;
+    font-size: 12px !important;
+    margin-left: 1rem !important;
+    padding: 10px 20px !important;
+    margin-bottom: 2rem !important;
+  }
+
+  .bubble-chat-2 {
+    width: 250px !important;
+    font-size: 12px !important;
+    margin-right: 1rem !important;
+    padding: 10px 20px !important;
+    margin-bottom: 2rem !important;
+  }
+
+  #adwadwadaadawda{
+    display: none !important;
+  }
+
+  .header-chat {
+    width: 120% !important;
+    display: none;
+    z-index: 1000;
+  }
+
+  .chat-area{
+    width: 120% !important;
+    display: none;
+    z-index: 1000;
+  }
+
+  .footer-chat{
+    display: none;
+    padding: 10px !important;
+    width: 120% !important;
+    z-index: 1000;
+  }
+
+  .adawdawdad{
+    height: 30px !important;
+    margin-top: 1.3rem;
+  }
+
+  #adawd{
+    padding: 0px !important;
+    width: 50px !important;
+  }
+
+  .awdwada{
+    display: none !important;
+  }
+
+  .awdwada2{
+    display: block !important;
+    margin-top: -1.6rem !important;
+    margin-bottom: 1rem !important;
+    margin-right: 16.5rem !important;
+  }
+
+  .adwadawd{
+    margin-top: -1.6rem !important;
+    margin-left: 16.5rem !important;
+  }
+
+  .awsfawdwa {
+    margin-top: 10px !important;
+    width: 75% !important;
+  }
+
+  .awsfawdwa2 {
+    position: absolute;
+    margin-top: 10px !important;
+    margin-left: 115px !important;
+    width: 100% !important;
+  }
+
+  .awdaw {
+    margin-left: 0px !important;
+  }
+
+  .adawdawt{
+    padding-left: 1rem !important;
+  }
+
+  .backbtn{
+    display: block;
+  }
+
+  .adwadadwdwdawd{
+    width: 100% !important;
+  }
+
+  .searchChatsearchChat {
+    width: 85.3% !important;
+  }
+
   .set-img-1 {
     display: none;
   }
@@ -118,6 +233,38 @@
     margin-right: 0px !important;
   }
 
+  .img-doctor {
+    margin-left: 5rem !important;
+    margin-bottom: 1rem !important;
+    height: 100px !important;
+    width: 100px !important;
+  }
+
+  .icon-online {
+    margin-top: 4.5rem !important;
+    margin-left: 4rem !important;
+  }
+
+  .icon-offline {
+    margin-top: 4.5rem !important;
+    margin-left: 4rem !important;
+  }
+
+  .width-set {
+    text-align: center;
+    width: 100% !important;
+    padding: 0px !important;
+  }
+
+  .marb {
+    margin-top: -4rem !important;
+    margin-bottom: 10rem !important;
+  }
+
+  .mt-set {
+    margin-top: 15px !important;
+  }
+
   .setSearch {
     width: 10px !important;
   }
@@ -130,7 +277,6 @@
 
   .header {
     font-size: 30px !important;
-    margin-left: -2rem !important;
   }
 
   .sub-header {
@@ -178,5 +324,9 @@
 
   .circle-icon-6 {
     display: none;
+  }
+
+  .awd {
+    padding: 0 30px;
   }
 }

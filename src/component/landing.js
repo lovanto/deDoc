@@ -1,4 +1,7 @@
 import React from 'react';
+import {
+    Link
+} from "react-router-dom";
 
 const Landing = () => {
     return (
@@ -17,22 +20,22 @@ const Landing = () => {
                                 nisi ut aliquip ex ea commodo consequat.
                             </p>
                             <div>
-                                <button className="btn btn-primary mr-4">
+                                <Link to="chat" className="btn btn-primary mr-4">
                                     <img
                                         className="mr-2 icon-set-1"
                                         src="./src/img/icons/chat.svg"
                                         alt="Chat"
                                     />
                                     Chat Doctor
-                                </button>
-                                <button className="btn btn-info">
+                                </Link>
+                                <Link to="medicine" className="btn btn-info">
                                     <img
                                         className="mr-2 icon-set-2"
                                         src="./src/img/icons/medicine.svg"
                                         alt="Medicine"
                                     />
                                     Buy Medicine
-                                </button>
+                                </Link>
                             </div>
                         </div>
                         <div className="col-md-5">

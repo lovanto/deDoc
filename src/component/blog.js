@@ -14,7 +14,9 @@ class Blog extends Component {
                             <input className="form-control form-style col-md-6 searchBlog" type="text" placeholder="Search for articles by title and category" />
                             <button className="btn whiteButton setSearch"><img className="icon-set-3" src="../src/img/icons/search.svg" alt="" /><label id="searchText">Search</label></button>
                         </div>
-                        <CardBlog dataArticles={this.state.dataArticles} />
+                        <div id="adwadawd">
+                            <CardBlog dataArticles={this.state.dataArticles} />
+                        </div>
                         <div className="col-md-12 d-flex justify-content-center mb-5">
                             <button className="btn btn-primary btn-view">View More</button>
                         </div>

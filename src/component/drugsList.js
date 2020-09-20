@@ -19,10 +19,10 @@ const drugsList = ({ dataDrug }) => {
                             <p className="sub-detail">Per Strip</p>
                             <p className="sub-detail">Rp. 13.000,-</p>
                             <div className="row">
-                                <div className="col-md-1">
+                                <div className="ml-3">
                                     <div className="circle-icon-1">-</div>
                                 </div>
-                                <div className="col-md-1 ml-3">
+                                <div className="ml-3">
                                     <div className="circle-icon-2">+</div>
                                 </div>
                                 <div className="d-flex justify-content-end col-md-8">

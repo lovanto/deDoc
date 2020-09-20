@@ -10,14 +10,11 @@ class Chat extends Component {
                 <article>
                     <div className="col-md-12 text-center banner-doctor">
                         <div className="header">Chat dengan dokter terpercaya</div>
-                        <div className="sub-header">Pilih Dokter sesuai dengan kebutuhan anda</div>
+                        <div className="sub-header awd">Pilih Dokter sesuai dengan kebutuhan anda</div>
                     </div>
-                    <div className="d-flex justify-content-center mb-5">
-                        <input className="form-control form-style col-md-4" type="text" placeholder="Search for articles by title and category" />
-                        <button className="btn whiteButton setSearch"><img className="icon-set-3" src="../src/img/icons/search.svg" alt="" /><label id="searchText">Search</label></button>
-                    </div>
-                    <div className="d-flex justify-content-center">
-                        <CardDoctor dataDoctor={this.state.dataDoctor} />
+                    <div className="d-flex justify-content-center mb-5 ml-3 mr-3">
+                        <input className="form-control form-style col-md-6 searchBlog" type="text" placeholder="Search for articles by title and category" />
+                        <button className="btn whiteButton setSearch"><img className="icon-set-3" src="../src/img/icons/search.svg" alt="" /><label id="searchText" style={{marginTop:'13px'}}>Search</label></button>
                     </div>
                     <div className="d-flex justify-content-center">
                         <CardDoctor dataDoctor={this.state.dataDoctor} />

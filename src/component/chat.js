@@ -14,16 +14,16 @@ class Chat extends Component {
                 <article>
                     <div className="col-md-12 text-center banner-doctor">
                         <div className="header">Chat dengan dokter terpercaya</div>
-                        <div className="sub-header">Pilih Dokter sesuai dengan kebutuhan anda</div>
+                        <div className="sub-header awd">Pilih Dokter sesuai dengan kebutuhan anda</div>
                     </div>
-                    <div className="d-flex justify-content-center mb-5">
-                        <input className="form-control form-style col-md-4" type="text" placeholder="Search for articles by title and category" />
-                        <Link to="/findDoctor" className="btn whiteButton setSearch"><img className="icon-set-3" src="../src/img/icons/search.svg" alt="" /><label id="searchText" style={{marginTop:'13px'}}>Search</label></Link>
+                    <div className="d-flex justify-content-center mb-5 ml-3 mr-3">
+                        <input className="form-control form-style col-md-6 searchBlog" type="text" placeholder="Search for articles by title and category" />
+                        <Link to="/findDoctor" className="btn whiteButton setSearch"><img className="icon-set-3 mt-set" src="../src/img/icons/search.svg" alt="" /><label id="searchText" style={{marginTop:'13px'}}>Search</label></Link>
                     </div>
                     <div className="d-flex justify-content-center">
                         <CardDoctor dataDoctor={this.state.dataDoctor} />
                     </div>
-                    <div className="container height-set-1" style={{ marginTop: '-125px' }}>
+                    <div className="container height-set-1 mb-5 marb" style={{ marginTop: '-125px' }}>
                         <div className="col-md-12 text-center banner-medic">
                             <div className="header2">Pilih dokter yang sesuai <br /> dengan kebutuhan medis anda</div>
                             <div className="sub-header2 mt-4">Pilih Dokter sesuai dengan diagnosa penyakit anda</div>
