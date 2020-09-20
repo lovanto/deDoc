@@ -235,6 +235,13 @@ a {
   height: 20px;
 }
 
+.icon-set-5 {
+  margin-top: 0px;
+  margin-right: 10px;
+  margin-left: -10px;
+  height: 20px;
+}
+
 .set-img-1 {
   position: absolute;
   z-index: 20;
@@ -281,8 +288,41 @@ a {
   margin-left: -1rem !important;
 }
 
+.rounded-0{
+  border-radius: 0px !important;
+}
+
 #searchText {
   margin-bottom: 0px !important;
+}
+
+.searchChat{
+  z-index: 50;
+  border-color: #eeeded !important;
+  border-left: #F8F8F8 !important;
+  margin-left: -5px !important;
+  background: #F8F8F8;
+}
+
+.typingChat{
+  z-index: 50;
+  border: #ffffff !important;
+  margin-left: -5px !important;
+  background: #ffffff;
+}
+
+.inSearchIcon{
+  background: #F8F8F8 ;
+  padding: 0px 10px 0 30px !important;
+  border-color: #eeeded;
+  border-radius: 0px 0px 0px 0px !important;
+  border-right: #F8F8F8;
+  margin-right: -10px !important;
+  height: 73px !important;
+}
+
+.idkwhat{
+  height: 73px !important;
 }
 
 .whiteButton {
@@ -394,4 +434,113 @@ a {
   margin-left: 5rem;
   border-radius: 100%;
   background-color: #f85a5a;
+}
+
+.contactList{
+  padding: 30px 0 30px 30px;
+  border-right: 1px solid #F8F8F8;
+  border-bottom: 3px solid #F8F8F8;
+  border-left: 1px solid #F8F8F8;
+  margin-left: -2px !important;
+  background: #ffffff;
+}
+
+.mini-img-doctor{
+  height: 80px;
+  width: 80px;
+  border-radius: 100%;
+  border: 1px solid rgba(0, 0, 0, 0.125) !important;
+  background-position: center;
+  background-size: cover;
+}
+
+.supermini-img-doctor{
+  height: 60px;
+  width: 60px;
+  border-radius: 100%;
+  border: 1px solid rgba(0, 0, 0, 0.125) !important;
+  background-position: center;
+  background-size: cover;
+}
+
+.supermini-img-doctor-2{
+  height: 60px;
+  width: 60px;
+  border-radius: 100%;
+  border: 1px solid rgba(0, 0, 0, 0.125) !important;
+  background-position: center;
+  background-size: cover;
+}
+
+.header-chat{
+  background-color: #F1F1F1;
+  padding: 25px 60px;
+}
+
+.chat-area{
+  padding: 50px 75px;
+  overflow-y: scroll;
+  max-height: 390px;
+}
+
+.footer-chat{
+  background-color: #ffffff;
+  padding: 17px 40px;
+  border: 1px solid #F8F8F8;
+}
+
+.bubble-chat{
+  background: #FFAEC6;
+  color: white;
+  font-family: Poppins-Regular;
+  font-size: 16px;
+  border-radius: 10px 10px 10px 0;
+  margin-left: 3rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  padding: 10px 30px;
+  margin-bottom: 3rem;
+  float: left;
+}
+
+.bubble-chat-2{
+  background: #92C7F5;
+  color: white;
+  font-family: Poppins-Regular;
+  font-size: 16px;
+  border-radius: 10px 10px 0 10px;
+  margin-right: 3rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  padding: 10px 30px;
+  margin-bottom: 3rem;
+  float: right;
+}
+
+.odd{
+  float: left;
+}
+
+.even{
+  float: right;
+}
+
+.custom-size-1{
+  height: 50px !important;
+  width: 130px !important;
+  padding: 10px 25px !important;
+}
+
+#searchChatContact{   
+  border-color: rgba(126, 239, 104, 0.0);
+  box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.075);
+  outline: 0 none;
+  background: #F8F8F8 !important;
+}
+
+#typeArea:focus {   
+  border-color: rgba(126, 239, 104, 0.0);
+  box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.075);
+  outline: 0 none;
+  background: #ffffff !important;
 }

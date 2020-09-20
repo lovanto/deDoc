@@ -20,7 +20,7 @@ const CardDoctor = ({ dataDoctor }) => {
                     <div className="row mt-4">
                         <div className="col-md-1"><img src="../src/img/icons/pink_like.svg" alt="" /></div>
                         <label className="col-md-2 ml-3 mt-2 label">{doctor.percentase}</label>
-                        <div className="col-md-7"><Link className="btn btn-primary" to="/">Chat Now</Link></div>
+                        <div className="col-md-7"><Link className="btn btn-primary" to="/chatDoctor">Chat Now</Link></div>
                     </div>
                 </div>
             ))}

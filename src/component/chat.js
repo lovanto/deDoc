@@ -5,7 +5,7 @@ import {
 
 import Footer from './footer.js';
 import CardDoctor from './cardDoctor.js';
-import DrugOption from './drugsOption.js';
+import DoctorOption from './doctorOption.js';
 
 class Chat extends Component {
     render() {
@@ -34,7 +34,7 @@ class Chat extends Component {
                             <div className="card card-rounded">
                                 <div className="card-body">
                                     <div className="row mr-4 ml-4 mt-3 mb-3 d-flex justify-content-center">
-                                        <DrugOption dataDrug={this.state.dataDrugs} />
+                                        <DoctorOption dataDrug={this.state.dataDrugs} />
                                     </div>
                                 </div>
                             </div>

@@ -25,6 +25,9 @@ class Chat extends Component {
                     <div className="d-flex justify-content-center">
                         <CardDoctor dataDoctor={this.state.dataDoctor} />
                     </div>
+                    <div className="col-md-12 d-flex justify-content-center row mb-5 pb-5 poppins-bold">
+                        <p className="m-2 color-pink">1</p> <p className="m-2">2</p> <p className="m-2">3</p>
+                    </div>
                     <div className="d-flex justify-content-center mb-5 pb-5">
                         <div className="col-md-8">
                             <div className="card card-rounded">
