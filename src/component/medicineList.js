@@ -46,10 +46,10 @@ class Medicine extends Component {
                                             <p className="sub-detail">Per Strip</p>
                                             <p className="sub-detail">Rp. 13.000,-</p>
                                             <div className="row">
-                                                <div className="ml-3">
+                                                <div className="ml-2">
                                                     <div className="circle-icon-1">-</div>
                                                 </div>
-                                                <div className="ml-3">
+                                                <div className="ml-2">
                                                     <div className="circle-icon-2">+</div>
                                                 </div>
                                                 <div className="d-flex justify-content-end col-md-9">
@@ -118,10 +118,10 @@ class Medicine extends Component {
                                                 <p className="sub-detail">Per Strip</p>
                                                 <p className="sub-detail">Rp. 13.000,-</p>
                                                 <div className="row">
-                                                    <div className="ml-3">
+                                                    <div className="ml-2">
                                                         <div className="circle-icon-1">-</div>
                                                     </div>
-                                                    <div className="ml-3">
+                                                    <div className="ml-2">
                                                         <div className="circle-icon-2">+</div>
                                                     </div>
                                                     <div className="d-flex justify-content-end col-md-8">
@@ -144,10 +144,10 @@ class Medicine extends Component {
                                                 <p className="sub-detail">Per Strip</p>
                                                 <p className="sub-detail">Rp. 13.000,-</p>
                                                 <div className="row">
-                                                    <div className="ml-3">
+                                                    <div className="ml-2">
                                                         <div className="circle-icon-1">-</div>
                                                     </div>
-                                                    <div className="ml-3">
+                                                    <div className="ml-2">
                                                         <div className="circle-icon-2">+</div>
                                                     </div>
                                                     <div className="d-flex justify-content-end col-md-8">
@@ -170,10 +170,10 @@ class Medicine extends Component {
                                                 <p className="sub-detail">Per Strip</p>
                                                 <p className="sub-detail">Rp. 13.000,-</p>
                                                 <div className="row">
-                                                    <div className="ml-3">
+                                                    <div className="ml-2">
                                                         <div className="circle-icon-1">-</div>
                                                     </div>
-                                                    <div className="ml-3">
+                                                    <div className="ml-2">
                                                         <div className="circle-icon-2">+</div>
                                                     </div>
                                                     <div className="d-flex justify-content-end col-md-8">
