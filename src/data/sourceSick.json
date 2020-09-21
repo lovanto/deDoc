@@ -2,61 +2,73 @@
     {
         "id": "0",
         "name": "Covid-19",
-        "url": "Covid19"
+        "url": "Covid19",
+        "img": "../src/img/icons/covid.svg"
     },
     {
         "id": "1",
         "name": "THT",
-        "url": "THT"
+        "url": "THT",
+        "img": "../src/img/icons/tht.svg"
     },
     {
         "id": "2",
         "name": "Pencernaan",
-        "url": "Pencernaan"
+        "url": "Pencernaan",
+        "img": "../src/img/icons/pencernaan.svg"
     },
     {
         "id": "3",
         "name": "Asma",
-        "url": "Asma"
+        "url": "Asma",
+        "img": "../src/img/icons/asma.svg"
     },
     {
         "id": "4",
         "name": "Vitamin & Suplemen",
-        "url": "VitaminSuplemen"
+        "url": "VitaminSuplemen",
+        "img": "../src/img/icons/vitamin.svg"
     },
     {
         "id": "5",
         "name": "Pernapasan",
-        "url": "Pernapasan"
+        "url": "Pernapasan",
+        "img": "../src/img/icons/pernapasan.svg"
     },
     {
         "id": "6",
         "name": "Hipertensi",
-        "url": "Hipertensi"
+        "url": "Hipertensi",
+        "img": "../src/img/icons/hipertensi.svg"
     },
     {
         "id": "7",
         "name": "Diabetes",
-        "url": "Diabetes"
+        "url": "Diabetes",
+        "img": "../src/img/icons/diabetes.svg"
     },
     {
         "id": "8",
         "name": "Demam",
-        "url": "Demam"
+        "url": "Demam",
+        "img": "../src/img/icons/demam.svg"
     },
     {
         "id": "9",
         "name": "Obat Ibu & Anak",
-        "url": "ObatIbuAnak"
+        "url": "ObatIbuAnak",
+        "img": "../src/img/icons/ibuanak.svg"
     },
     {
         "id": "10",
         "name": "Vitalitas",
-        "url": "Vitalitas"
+        "url": "Vitalitas",
+        "img": "../src/img/icons/vitalitas.svg"
     },
     {
         "id": "11",
         "name": "Alat Kontrasepti",
-        "url": "AlatKontrasepti"
+        "url": "AlatKontrasepti",
+        "img": "../src/img/icons/kontrasepsi.svg"
     }
 ]
