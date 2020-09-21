@@ -1,0 +1,68 @@
+[
+    {
+        "id": "0",
+        "name": "Spesialis Tulang",
+        "url": "SpesialisTulang",
+        "img": "../src/img/icons/tulang2.svg"
+    },
+    {
+        "id": "1",
+        "name": "THT",
+        "url": "THT",
+        "img": "../src/img/icons/tht.svg"
+    },
+    {
+        "id": "2",
+        "name": "Kejiwaan",
+        "url": "Kejiwaan",
+        "img": "../src/img/icons/kejiwaan.svg"
+    },
+    {
+        "id": "3",
+        "name": "Saraf",
+        "url": "Saraf",
+        "img": "../src/img/icons/saraf.svg"
+    },
+    {
+        "id": "4",
+        "name": "Mata",
+        "url": "Mata",
+        "img": "../src/img/icons/mata.svg"
+    },
+    {
+        "id": "5",
+        "name": "Penyakit Dalam",
+        "url": "PenyakitDalam",
+        "img": "../src/img/icons/penyakitDalam.svg"
+    },
+    {
+        "id": "6",
+        "name": "Kandungan",
+        "url": "Kandungan",
+        "img": "../src/img/icons/kandungan.svg"
+    },
+    {
+        "id": "7",
+        "name": "Jantung & Pembuluh Darah",
+        "url": "Jantung&Pembuluh Darah",
+        "img": "../src/img/icons/jantung.svg"
+    },
+    {
+        "id": "8",
+        "name": "Spesialis Kulit",
+        "url": "SpesialisKulit",
+        "img": "../src/img/icons/kulit.svg"
+    },
+    {
+        "id": "9",
+        "name": "Spesialis Anak",
+        "url": "Spesialis Anak",
+        "img": "../src/img/icons/anak.svg"
+    },
+    {
+        "id": "10",
+        "name": "COVID-19",
+        "url": "COVID-19",
+        "img": "../src/img/icons/covid.svg"
+    }
+]
