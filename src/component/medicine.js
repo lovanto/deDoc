@@ -9,10 +9,10 @@ class Medicine extends Component {
             <div className="background-landing" >
                 <article>
                     <div className="col-md-12 text-center banner-medic">
-                        <div className="header">Pilih Obat Sesuai Kategori</div>
-                        <div className="sub-header">Pilih Obat Sesuai Kategori</div>
+                        <div className="header animate__animated animate__fadeInLeft">Pilih Obat Sesuai Kategori</div>
+                        <div className="sub-header animate__animated animate__fadeInRight">Pilih Obat Sesuai Kategori</div>
                     </div>
-                    <div className="d-flex justify-content-center mb-5">
+                    <div className="d-flex justify-content-center mb-5 animate__animated animate__fadeInUp">
                         <div className="col-md-8">
                             <div className="card card-rounded">
                                 <div className="card-body">
@@ -23,21 +23,16 @@ class Medicine extends Component {
                             </div>
                         </div>
                     </div>
-                    <div className="d-flex justify-content-center mb-5 pb-5">
+                    <div className="d-flex justify-content-center mb-5 pb-5 animate__animated animate__fadeInUp">
                         <div className="col-md-8">
                             <div className="card card-rounded">
                                 <div className="card-body m-5 p-5">
                                     <div className="text-left subheader-detail min-l-1">Penjelasan</div><br />
                                     <div className="row d-flex justify-content-center col-md-11 content">
-                                        1.  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-                                        ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                                    laboris nisi ut aliquip ex ea commodo consequat. <br /><br />
-                                    2.  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-                                    ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                                    laboris nisi ut aliquip ex ea commodo consequat. <br /><br />
-                                    3.  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-                                    ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                                    laboris nisi ut aliquip ex ea commodo consequat. <br /><br />
+                                        1.  Kami telah bekerja sama dengan perusahaan penyuplai obat-obatan yang telah terverifikasi. <br /><br />
+                                        2.  Obat yang kami jual, tidak boleh dipakai SEMBARANGAN dan harus sesuai dengan dosisnya. <br /><br />
+                                        3.  Tanyakan terlebih dahulu kepada Dokter yang terkait perihal Obat apa yang sesuai untuk
+                                        kebutuhan medis anda. <br/><br/>
                                     </div>
                                 </div>
                             </div>
@@ -58,7 +53,6 @@ class Medicine extends Component {
             .then(res => res.json())
             .then((data) => {
                 this.setState({ dataDrugs: data });
-                console.log(data);
             })
             .catch(console.log)
     }

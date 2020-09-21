@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="216" height="216" viewBox="0 0 216 216">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #77b9f3;
+      }
+
+      .cls-2 {
+        fill: #f4e4d3;
+      }
+
+      .cls-3 {
+        fill: #77c6d8;
+      }
+
+      .cls-4 {
+        fill: #479aa8;
+      }
+
+      .cls-5 {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <g id="mata" transform="translate(-1388 -967)">
+    <circle id="Ellipse_18" data-name="Ellipse 18" class="cls-1" cx="108" cy="108" r="108" transform="translate(1388 967)"/>
+    <g id="mata-obat" transform="translate(1429 1050)">
+      <path id="Path_45" data-name="Path 45" class="cls-2" d="M416.748,404.158c5.951,12.7,3.315,28.518-6.282,37.709s-23.451,9.161-33.019-.072-12.153-25.066-6.161-37.736c-20.734,4.8-35.286,16.022-35.286,29.1,0,17.445,25.892,31.585,57.828,31.585s57.828-14.139,57.828-31.585C451.656,420.164,437.287,409.007,416.748,404.158Z" transform="translate(-326.639 -401.574)"/>
+      <path id="Path_46" data-name="Path 46" class="cls-3" d="M457.13,445.172a30.153,30.153,0,0,0,26.457-44.588,139.2,139.2,0,0,0-52.886-.1,30.153,30.153,0,0,0,26.428,44.686Zm0-43.89a15.792,15.792,0,1,1-15.792,15.792,15.792,15.792,0,0,1,15.792-15.792Z" transform="translate(-389.654 -398)"/>
+      <ellipse id="Ellipse_51" data-name="Ellipse 51" class="cls-4" cx="16.5" cy="16" rx="16.5" ry="16" transform="translate(51 3)"/>
+      <circle id="Ellipse_52" data-name="Ellipse 52" class="cls-5" cx="7" cy="7" r="7" transform="translate(89 5)"/>
+      <circle id="Ellipse_53" data-name="Ellipse 53" class="cls-5" cx="3" cy="3" r="3" transform="translate(24 43)"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="216" height="216" viewBox="0 0 216 216">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #77b9f3;
+      }
+
+      .cls-2, .cls-3 {
+        fill: #ef3a6e;
+      }
+
+      .cls-3, .cls-4 {
+        stroke: #fff;
+        stroke-miterlimit: 10;
+        stroke-width: 3px;
+      }
+
+      .cls-4 {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <g id="jantung" transform="translate(-1391 -2422)">
+    <circle id="Ellipse_21" data-name="Ellipse 21" class="cls-1" cx="108" cy="108" r="108" transform="translate(1391 2422)"/>
+    <g id="hipertensi-obat" transform="translate(1427.998 2476.005)">
+      <path id="Path_106" data-name="Path 106" class="cls-2" d="M368.6,327.559c-27.222-28.06-51.655-9.508-62.536,2.061a63.586,63.586,0,0,0-5.986,7.283c-2.662-38.327-41.34-20.862-45.983-18.628a1.019,1.019,0,0,1-.334.283,1.05,1.05,0,0,1-.663.433c-31.146,29.011-5.4,58.119-5.4,58.119l58.895,55.78s27.465-26.05,55.214-52.665S368.6,327.559,368.6,327.559Z" transform="translate(-237.7 -312.38)"/>
+      <path id="Path_107" data-name="Path 107" class="cls-2" d="M370.6,327.559c-27.222-28.06-51.655-9.508-62.536,2.061a63.58,63.58,0,0,0-5.986,7.283c-2.662-38.327-41.339-20.862-45.983-18.628a1.019,1.019,0,0,1-.334.283,1.051,1.051,0,0,1-.663.433c-31.146,29.011-5.4,58.119-5.4,58.119l58.895,55.78s27.465-26.05,55.214-52.665S370.6,327.559,370.6,327.559Z" transform="translate(-239.134 -312.38)"/>
+      <path id="Path_108" data-name="Path 108" class="cls-3" d="M23.95,149.6l15.672-.051L48.966,126.9l8.778,33.978,7.079-23.5,5.38,12.175L77,124.63l2.265,38.225,5.663-20.387,25.2-1.416" transform="translate(-17.167 -89.345)"/>
+      <circle id="Ellipse_70" data-name="Ellipse 70" class="cls-4" cx="2.973" cy="2.973" r="2.973" transform="translate(91.685 48.166)"/>
+    </g>
+  </g>
+</svg>

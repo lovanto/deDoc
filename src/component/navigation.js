@@ -24,7 +24,7 @@ const Navigation = () => {
                             <span className="navbar-toggler-icon"></span>
                         </button>
                         <div className="collapse navbar-collapse m-4" id="navbarTogglerDemo01">
-                            <Link className="navbar-brand ml-5 header-nav" to="/">DeDoc.</Link>
+                            <Link className="navbar-brand ml-5 header-nav animate__animated animate__rubberBand" to="/">DeDoc.</Link>
                             <ul className="navbar-nav mr-auto mt-2 mt-lg-0"></ul>
                             <ul className="navbar-nav my-2 my-lg-0 mr-5">
                                 <li className="nav-item mr-5 ml-5">

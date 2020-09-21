@@ -9,15 +9,14 @@ const Landing = () => {
             <div className="background-landing">
                 <div className="ml-5 mr-5 mb-5 pl-5 pr-5 landing-set">
                     <div className="row">
-                        <div className="col-md-7">
+                        <div className="col-md-7 animate__animated animate__fadeInLeft">
                             <div className="header mb-4">
                                 Provide Solutions For Your Healthy Life
                             </div>
                             <p className="content mb-4 col-md-9 set-content-1">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                                nisi ut aliquip ex ea commodo consequat.
+                                Menyediakan beragam solusi untuk kebutuhan medis
+                                anda dengan mudah, aman  dan praktis tanpa harus
+                                meninggalkan rumah anda.
                             </p>
                             <div>
                                 <Link to="chat" className="btn btn-primary mr-4">
@@ -38,7 +37,7 @@ const Landing = () => {
                                 </Link>
                             </div>
                         </div>
-                        <div className="col-md-5">
+                        <div className="col-md-5 animate__animated animate__fadeInRight">
                             <img
                                 className="rounded-circle set-img-1"
                                 src="./src/img/people1.jpg"

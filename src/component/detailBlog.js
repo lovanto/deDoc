@@ -52,13 +52,12 @@ const DetailBlog = () => {
                             <div className="row">
                                 <div className="img-profile-set ml-3"></div>
                                 <div className="col-md-10">
-                                    <div className="m-2 written-detail">Name</div>
+                                    <div className="m-2 written-detail">Rifky Lovanto</div>
                                     <div className="m-2 written-detail">5 Hours Ago</div>
                                 </div>
                             </div>
                             <div className="written-detail mt-3 mb-3">
-                                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
-                                tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero
+                                Drink plenty of water. Water helps flush our systems of waste products and toxins, yet many of us go through life dehydrated—causing tiredness, low energy, and headaches. It’s common to mistake thirst for hunger, so staying well hydrated will also help you make healthier food choices.
                             </div>
                             <div className="d-flex justify-content-end mt-3">
                                 <img src="../src/img/icons/love.svg" alt="" />

@@ -7,7 +7,7 @@ const CardDoctor = ({ dataDoctor }) => {
     return (
         <div className="col-md-9 row d-flex justify-content-center">
             {dataDoctor.map((doctor) => (
-                <div className="card card-doctor col-md-5 mr-4 ml-4 mb-5 p-5">
+                <div className="card card-doctor col-md-5 mr-4 ml-4 mb-5 p-5" key={doctor.id}>
                     <div className="row">
                         <div className="img-doctor" style={{ backgroundImage: 'url("' + doctor.img + '")' }}>
                             <div className={'icon-' + doctor.status}></div>

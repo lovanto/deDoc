@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="216" height="216" viewBox="0 0 216 216">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #77b9f3;
+      }
+
+      .cls-2 {
+        fill: #f26886;
+      }
+
+      .cls-3 {
+        fill: #f27c9c;
+      }
+
+      .cls-4, .cls-5 {
+        fill: none;
+        stroke: #fff;
+        stroke-miterlimit: 10;
+        stroke-width: 2px;
+      }
+
+      .cls-5 {
+        stroke-linecap: round;
+      }
+
+      .cls-6 {
+        fill: #f2f2f2;
+      }
+    </style>
+  </defs>
+  <g id="kontrasepsi" transform="translate(-1388 -1767)">
+    <circle id="Ellipse_25" data-name="Ellipse 25" class="cls-1" cx="108" cy="108" r="108" transform="translate(1388 1767)"/>
+    <g id="kontrasepsi-obat" transform="translate(1431.006 1807.059)">
+      <path id="Path_78" data-name="Path 78" class="cls-2" d="M302.676,165.259c0-13.4-10.441-24.259-23.338-24.259S256,151.858,256,165.259c0,.725.037,1.443.1,2.15H256V253.39h46.676V167.409h-.1C302.639,166.7,302.676,165.984,302.676,165.259Z" transform="translate(-185.374 -135.511)"/>
+      <rect id="Rectangle_93" data-name="Rectangle 93" class="cls-3" width="51" height="3" transform="translate(68.994 115.941)"/>
+      <rect id="Rectangle_94" data-name="Rectangle 94" class="cls-2" width="3" height="8" rx="1.5" transform="translate(91.994 -0.059)"/>
+      <line id="Line_13" data-name="Line 13" class="cls-4" y2="36.849" transform="translate(74.003 31.898)"/>
+      <line id="Line_14" data-name="Line 14" class="cls-5" y2="36.849" transform="translate(74.003 32.512)"/>
+      <line id="Line_15" data-name="Line 15" class="cls-5" x2="0.004" y2="27.33" transform="translate(74 75.196)"/>
+      <path id="Path_79" data-name="Path 79" class="cls-2" d="M168.328,240a27.324,27.324,0,0,0-20.175,45.761l32.188-42.991A27.158,27.158,0,0,0,168.328,240Z" transform="translate(-141 -173.709)"/>
+      <path id="Path_80" data-name="Path 80" class="cls-2" d="M195.311,251.9,162.73,295.4a27.324,27.324,0,0,0,32.581-43.5Z" transform="translate(-149.387 -178.301)"/>
+      <path id="Path_81" data-name="Path 81" class="cls-6" d="M184.838,244.53,152.65,287.521a27.417,27.417,0,0,0,6.191,5.048l32.581-43.5A27.4,27.4,0,0,0,184.838,244.53Z" transform="translate(-145.497 -175.457)"/>
+    </g>
+  </g>
+</svg>

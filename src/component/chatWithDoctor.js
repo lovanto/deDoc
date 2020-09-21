@@ -7,12 +7,12 @@ class Blog extends Component {
             <div className="background-landing" >
                 <article className="awdaw" style={{ minHeight: '620px', marginLeft: '110px', background: '#ffffff' }}>
                     <div className="row" style={{marginRight: '0px'}}>
-                        <div className="dwsefgdwsefg" id="contactArea">
+                        <div className="dwsefgdwsefg animate__animated animate__fadeIn" id="contactArea">
                             <div className="d-flex justify-content-start adawd" style={{ border: '1px solid #ebebeb', borderBottom: '0px solid #ebebeb'}}>
                                 <button className="btn inSearchIcon pl-3"><img className="icon-set-5 adawdawt" src="../src/img/icons/search.svg" alt="" /></button>
                                 <input id="searchChatContact" className="form-control form-style searchChatsearchChat col-md-11 searchChat idkwhat" type="text" placeholder="Search" />
                             </div>
-                            <div className="adwadadwdwdawd" style={{ border: '1px solid #ebebeb', minHeight: '535px', maxHeight: '535px', overflowY: 'scroll' }}>
+                            <div className="adwadadwdwdawd" style={{ overflowY: 'scroll', border: '1px solid #ebebeb', minHeight: '535px', maxHeight: '535px' }}>
                                 <div className="col-md-12 contactList row" onClick={this.showChat}>
                                     <div className="mini-img-doctor" style={{ backgroundImage: 'url("../src/img/people2.jpg")' }}></div>
                                     <div className="col-md-6 awsfawdwa sub-detail mt-2 ml-3">
@@ -55,7 +55,7 @@ class Blog extends Component {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-md-8" id="chatArea" style={{ marginLeft: '-33px', zIndex: '100' }}>
+                        <div className="col-md-8 animate__animated animate__fadeIn" id="chatArea" style={{ marginLeft: '-33px', zIndex: '100' }}>
                             <div className="header-chat" id="chatNow" style={{ border: '1px solid #ebebeb'}}>
                                 <div className="col-md-12 row">
                                     <div id="backbtn" style={{marginRight: '2rem', marginTop: '1rem'}} onClick={this.closeChat}> <img src="../src/img/icons/back.svg" alt=""/> </div>

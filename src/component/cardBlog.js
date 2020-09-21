@@ -7,7 +7,7 @@ const CardBlog = ({ dataArticles }) => {
     return (
         <div className="row d-flex justify-content-center mb-5">
             {dataArticles.map((articles) => (
-                <div className="card postSize set-padding-0 m-3">
+                <div className="card postSize set-padding-0 m-3" key={articles.id}>
                     <div className="img-bg" style={{ backgroundImage: 'url("' + articles.img + '")' }} />
                     <div className="card-body">
                         <p className="card-text font-weight-bold category">{articles.category} | {articles.date}</p>

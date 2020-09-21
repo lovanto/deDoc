@@ -1,0 +1,50 @@
+<svg width="69" height="69" xmlns="http://www.w3.org/2000/svg">
+ <!-- Created with Method Draw - http://github.com/duopixel/Method-Draw/ -->
+
+ <g>
+  <title>background</title>
+  <rect fill="#fff" id="canvas_background" height="71" width="71" y="-1" x="-1"/>
+  <g display="none" overflow="visible" y="0" x="0" height="100%" width="100%" id="canvasGrid">
+   <rect fill="url(#gridpattern)" stroke-width="0" y="0" x="0" height="100%" width="100%"/>
+  </g>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <defs>
+   <style>.cls-1 {
+        fill: #77b9f3;
+      }
+
+      .cls-2, .cls-3 {
+        fill: none;
+      }
+
+      .cls-3 {
+        stroke: #fff;
+        stroke-miterlimit: 10;
+      }
+
+      .cls-4 {
+        fill: #ef5072;
+      }</style>
+  </defs>
+  <g id="svg_32">
+   <g transform="matrix(0.3191930726643797,0,0,0.3191930726643797,0,0) " id="svg_17">
+    <circle r="108" cy="109.55045" cx="107.70644" class="cls-1" id="svg_30"/>
+    <g id="svg_18">
+     <rect x="-138.29356" y="14.55045" height="200" width="200" class="cls-2" id="svg_29"/>
+     <path d="m-100.79356,94.05045" class="cls-3" id="svg_28"/>
+     <path d="m56.20644,78.55045c10,-6 4,-9 21,-10c0,0 4,-7 16,-5c0,0 8,-6 14,-2c0,0 10,-7 14,1c0,0 15,-2 22,9c0,0 15,7 15,16c0,0 15,9 13,26s-5,22 -5,22s-7,8 -10,6c0,0 -2,10 -8,10l-12,0l-6,4l-1,8l-3,2l-12,-17s-12,-6 -13,-11c0,0 -10,5 -16,3s-16,-9 -15,-11c0,0 -15,-1 -20,-11l-5,-10s1,-24 11,-30z" class="cls-4" id="svg_27"/>
+     <path d="m63.70644,99.55045s-4,-11 8,-11s10,-13 10,-13" class="cls-3" id="svg_26"/>
+     <path d="m94.20644,89.05045s27,-15 35,4" class="cls-3" id="svg_25"/>
+     <path d="m139.20644,79.05045" class="cls-3" id="svg_24"/>
+     <path d="m132.20644,74.05045s16,5 15,21" class="cls-3" id="svg_23"/>
+     <path d="m74.20644,121.05045s28,-25 42,-11s33,-7 33,-7" class="cls-3" id="svg_22"/>
+     <path d="m113.20644,136.05045s8,-11 19,-4" class="cls-3" id="svg_21"/>
+     <path d="m147.20644,140.05045" class="cls-3" id="svg_20"/>
+     <path d="m145.20644,140.05045s13,-5 15,-15" class="cls-3" id="svg_19"/>
+    </g>
+   </g>
+  </g>
+ </g>
+</svg>

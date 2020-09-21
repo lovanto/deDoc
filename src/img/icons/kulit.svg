@@ -1,0 +1,96 @@
+<svg width="69" height="69" xmlns="http://www.w3.org/2000/svg">
+ <!-- Created with Method Draw - http://github.com/duopixel/Method-Draw/ -->
+
+ <g>
+  <title>background</title>
+  <rect fill="none" id="canvas_background" height="71" width="71" y="-1" x="-1"/>
+  <g display="none" overflow="visible" y="0" x="0" height="100%" width="100%" id="canvasGrid">
+   <rect fill="url(#gridpattern)" stroke-width="0" y="0" x="0" height="100%" width="100%"/>
+  </g>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <defs>
+   <style>.cls-1 {
+        fill: #77b9f3;
+      }
+
+      .cls-2, .cls-3 {
+        fill: none;
+      }
+
+      .cls-3 {
+        stroke: #fff;
+        stroke-miterlimit: 10;
+      }
+
+      .cls-4 {
+        fill: #ef5072;
+      }</style>
+  </defs>
+  <defs>
+   <style>.cls-1 {
+        fill: #77b9f3;
+      }
+
+      .cls-2, .cls-4 {
+        fill: none;
+      }
+
+      .cls-3 {
+        fill: #ef6c6c;
+      }
+
+      .cls-3, .cls-4 {
+        stroke: #fff;
+        stroke-miterlimit: 10;
+      }
+
+      .cls-4 {
+        stroke-linecap: round;
+        stroke-width: 1.5px;
+      }</style>
+  </defs>
+  <defs>
+   <style>.cls-1 {
+        fill: #77b9f3;
+      }
+
+      .cls-2 {
+        fill: #474645;
+      }
+
+      .cls-3 {
+        fill: #ef7d54;
+      }
+
+      .cls-4 {
+        fill: #f9ab8c;
+      }
+
+      .cls-5 {
+        fill: #fff;
+      }
+
+      .cls-6 {
+        fill: none;
+        stroke: #e54535;
+        stroke-miterlimit: 10;
+      }</style>
+  </defs>
+  <g stroke="null" id="svg_104">
+   <g stroke="null" transform="matrix(0.3137888807430093,0,0,0.3137888807430093,-83.72588000289998,-83.73204700916737) " id="svg_92">
+    <path stroke="null" d="m486.72576,377.16812a109.443,109.443 0 0 0 -210.132,-42.825l162.548,0l0,133.232a109.158,109.158 0 0 0 47.585,-90.41l-0.001,0.003z" class="cls-1" id="svg_102"/>
+    <ellipse stroke="null" ry="10" rx="11" cy="391.78112" cx="295.82276" class="cls-2" id="svg_101"/>
+    <path stroke="null" d="m420.10675,391.44312c-9.516,-9.517 -19.036,19.034 -19.036,28.551s-19.034,-19.034 -19.034,-19.034l-9.517,-9.517c-9.517,-9.517 -19.034,19.034 -28.551,28.551s-28.551,-28.551 -28.551,-28.551s19.038,38.068 28.553,28.551s19.034,-38.067 28.551,-28.551l9.517,9.517s19.032,28.551 19.032,19.034s9.517,-38.067 19.034,-28.551a155.587,155.587 0 0 1 19.034,25.7l0,-42.069s-88.7,2.094 -108.4,2.094s-19.7,42.826 -29.6,42.826s-9.517,0 -19.7,-25.7a14.275,14.275 0 0 0 -3.331,-4.854l-8.565,6.281a109.253,109.253 0 0 0 169.59,71.852l0,-50.434a155.587,155.587 0 0 0 -19.026,-25.696zm-99.926,47.584a4.758,4.758 0 1 1 4.759,-4.759a4.758,4.758 0 0 1 -4.759,4.759zm66.618,38.067a23.792,23.792 0 1 1 23.792,-23.792a23.792,23.792 0 0 1 -23.792,23.792z" class="cls-3" id="svg_100"/>
+    <path stroke="null" d="m269.55077,395.72712l8.565,-6.281a35.031,35.031 0 0 0 -9.992,-6.566a95.165,95.165 0 0 0 1.428,12.847l-0.001,0z" class="cls-3" id="svg_99"/>
+    <path stroke="null" d="m267.83776,382.87812a35.04,35.04 0 0 1 9.992,6.567l0,0a14.279,14.279 0 0 1 3.331,4.853c9.517,25.7 9.517,25.7 19.7,25.7s9.517,-42.826 29.6,-42.826s108.4,-2.094 108.4,-2.094l0,-40.736l-162.268,0a108.684,108.684 0 0 0 -8.755,42.826q0,2.855 0,5.71z" class="cls-4" id="svg_98"/>
+    <ellipse stroke="null" ry="25" rx="24.5" cy="452.78112" cx="387.32276" class="cls-5" id="svg_97"/>
+    <ellipse stroke="null" ry="5.5" rx="6.5" cy="434.28112" cx="320.32276" class="cls-5" id="svg_96"/>
+    <ellipse stroke="null" ry="10" rx="11" cy="391.78112" cx="295.82276" class="cls-2" id="svg_95"/>
+    <path stroke="null" d="m286.87176,391.44412s19.034,-66.618 38.067,-76.135l19.033,-9.517s-39.209,63.382 -38.638,88.792" class="cls-2" id="svg_94"/>
+    <path stroke="null" d="m315.42178,391.44312s21.794,44.539 29.978,27.028l8.089,-17.511l9.517,-9.517l1.716,0c-1.713,0 26.838,38.068 26.838,28.551s0,-38.067 9.517,-28.551s9.517,38.068 19.034,28.551a136.938,136.938 0 0 0 19.034,-28.551" class="cls-6" id="svg_93"/>
+   </g>
+  </g>
+ </g>
+</svg>

@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="216" height="216" viewBox="0 0 216 216">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #77b9f3;
+      }
+
+      .cls-2 {
+        fill: #fcfcfc;
+      }
+
+      .cls-3 {
+        fill: #fff;
+      }
+
+      .cls-4 {
+        fill: #ef4864;
+      }
+    </style>
+  </defs>
+  <g id="demam" transform="translate(-317 -1767)">
+    <circle id="Ellipse_26" data-name="Ellipse 26" class="cls-1" cx="108" cy="108" r="108" transform="translate(317 1767)"/>
+    <g id="demam-obat" transform="translate(388 1799)">
+      <circle id="Ellipse_54" data-name="Ellipse 54" class="cls-2" cx="38.5" cy="38.5" r="38.5" transform="translate(1 62)"/>
+      <rect id="Rectangle_89" data-name="Rectangle 89" class="cls-3" width="42" height="115" rx="21" transform="translate(18)"/>
+      <rect id="Rectangle_90" data-name="Rectangle 90" class="cls-4" width="31" height="111" rx="15.5" transform="translate(23 4)"/>
+      <ellipse id="Ellipse_55" data-name="Ellipse 55" class="cls-4" cx="32" cy="31" rx="32" ry="31" transform="translate(7 70)"/>
+      <rect id="Rectangle_91" data-name="Rectangle 91" class="cls-2" width="8" height="2" transform="translate(46 54)"/>
+      <rect id="Rectangle_92" data-name="Rectangle 92" class="cls-2" width="8" height="2" transform="translate(46 38)"/>
+    </g>
+  </g>
+</svg>
