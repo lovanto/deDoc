@@ -19,9 +19,9 @@
     },
     {
         "id": "3",
-        "name": "Asma",
-        "url": "Asma",
-        "img": "../src/img/icons/asma.svg"
+        "name": "Mata",
+        "url": "Mata",
+        "img": "../src/img/icons/mata.svg"
     },
     {
         "id": "4",
@@ -61,9 +61,9 @@
     },
     {
         "id": "10",
-        "name": "Vitalitas",
-        "url": "Vitalitas",
-        "img": "../src/img/icons/vitalitas.svg"
+        "name": "Otot, Tulang dan Sendi",
+        "url": "Otot, Tulang dan Sendi",
+        "img": "../src/img/icons/tulang.svg"
     },
     {
         "id": "11",
