@@ -318,11 +318,17 @@ a {
   border-radius: 0px 0px 0px 0px !important;
   border-right: #F8F8F8;
   margin-right: -10px !important;
-  height: 73px !important;
+  height: 74px !important;
 }
 
 .idkwhat{
-  height: 73px !important;
+  height: 74px !important;
+}
+
+.oihugyf{
+  flex: 0 0 71% !important;
+  max-width: 71% !important;
+  padding-right: 0px !important;
 }
 
 .whiteButton {
@@ -543,8 +549,12 @@ a {
   float: right;
 }
 
-.backbtn{
+#backbtn{
   display: none;
+}
+
+#backbtnChat{
+  display: block;
 }
 
 .custom-size-1{
