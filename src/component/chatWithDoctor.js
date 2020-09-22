@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import Footer from './footer.js';
 
 class Blog extends Component {
     render() {
@@ -116,7 +115,6 @@ class Blog extends Component {
                         </div>
                     </div>
                 </article>
-                <Footer />
             </div>
         );
     }

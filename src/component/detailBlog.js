@@ -1,5 +1,4 @@
 import React from 'react';
-import Footer from './footer.js';
 
 const DetailBlog = () => {
     return (
@@ -69,7 +68,6 @@ const DetailBlog = () => {
                     </div>
                 </div>
             </article>
-            <Footer />
         </div>
     );
 };

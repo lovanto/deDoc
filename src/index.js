@@ -4,13 +4,13 @@ import ReactDOM from 'react-dom';
 import 'bootstrap';
 import './css/style.scss';
 
-import Navigation from './component/navigation.js';
+import Container from './component/container.js';
 
 class App extends Component {
   render() {
     return (
       <React.StrictMode>
-        <Navigation />
+        <Container />
       </React.StrictMode>
     );
   }

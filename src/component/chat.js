@@ -3,7 +3,6 @@ import {
     Link
 } from "react-router-dom";
 
-import Footer from './footer.js';
 import CardDoctor from './cardDoctor.js';
 import DoctorOption from './doctorOption.js';
 
@@ -58,7 +57,6 @@ class Chat extends Component {
                         </div>
                     </div>
                 </article>
-                <Footer />
             </div>
         );
     }

@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import Footer from './footer.js';
 
 import CardDoctor from './cardDoctor2.js';
 
@@ -43,7 +42,6 @@ class Chat extends Component {
                         </div>
                     </div>
                 </article>
-                <Footer />
             </div>
         );
     }

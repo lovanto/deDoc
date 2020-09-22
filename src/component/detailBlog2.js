@@ -1,5 +1,4 @@
 import React from 'react';
-import Footer from './footer.js';
 
 const DetailBlog = () => {
     return (
@@ -20,9 +19,9 @@ const DetailBlog = () => {
 
                         The good news is, you don't have to change everything at the same time. In fact, the trick to healthy living is making small changes—taking more steps each day, adding fruit to your cereal, having an extra glass of water, or saying no to that second helping of buttery mashed potatoes. One thing you can do right now to make your lifestyle healthier is to move more. <br /><br />
 
-                        The great thing about moving is that just a few minutes a day can have other lasting benefits, many of which you may not even be aware of. Just some of the benefits include: <br/><br/>
+                        The great thing about moving is that just a few minutes a day can have other lasting benefits, many of which you may not even be aware of. Just some of the benefits include: <br /><br />
 
-                        Enhances self-esteem, Helps maintain flexibility as you age, Improves joint stability, Improves memory in elderly people, Improves mood and reduce symptoms of anxiety and depression, Increases and improves range of motion, Maintains bone mass, Prevents osteoporosis and fractures, Reduces stress, Reduces the risk of heart disease, stroke, and diabetes. <br/><br/>
+                        Enhances self-esteem, Helps maintain flexibility as you age, Improves joint stability, Improves memory in elderly people, Improves mood and reduce symptoms of anxiety and depression, Increases and improves range of motion, Maintains bone mass, Prevents osteoporosis and fractures, Reduces stress, Reduces the risk of heart disease, stroke, and diabetes. <br /><br />
 
                         Source: https://www.verywellfit.com/simple-ways-to-live-a-healthy-lifestyle-1231193
                     </div>
@@ -51,7 +50,7 @@ const DetailBlog = () => {
                                 </div>
                             </div>
                             <div className="written-detail mt-3 mb-3">
-                            Drink plenty of water. Water helps flush our systems of waste products and toxins, yet many of us go through life dehydrated—causing tiredness, low energy, and headaches. It’s common to mistake thirst for hunger, so staying well hydrated will also help you make healthier food choices.
+                                Drink plenty of water. Water helps flush our systems of waste products and toxins, yet many of us go through life dehydrated—causing tiredness, low energy, and headaches. It’s common to mistake thirst for hunger, so staying well hydrated will also help you make healthier food choices.
                             </div>
                             <div className="d-flex justify-content-end mt-3">
                                 <img src="../src/img/icons/love.svg" alt="" />
@@ -63,7 +62,6 @@ const DetailBlog = () => {
                     </div>
                 </div>
             </article>
-            <Footer />
         </div>
     );
 };

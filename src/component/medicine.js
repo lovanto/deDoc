@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import Footer from './footer.js';
 
 import DrugOption from './drugsOption.js';
 
@@ -39,7 +38,6 @@ class Medicine extends Component {
                         </div>
                     </div>
                 </article>
-                <Footer />
             </div>
         );
     }
