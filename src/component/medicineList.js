@@ -7,10 +7,10 @@ class Medicine extends Component {
         return (
             <div className="background-landing" >
                 <article>
-                    <div className="col-md-8 banner-medic-2 divSearch">
-                        <div className="header ml-5 pl-5 mb-4 animate__animated animate__fadeInLeft">Pernapasan</div>
-                        <div className="d-flex justify-content-start ml-5 pl-5 animate__animated animate__fadeInRight">
-                            <input className="form-control form-style col-md-6 searchMedicine" type="text" placeholder="Search for articles by title and category" />
+                    <div className="col-md-12 banner-medic-2 divSearch adawdawdwadawd">
+                        <div className="header adwadawdwe3 d-flex justify-content-center mb-4 animate__animated animate__fadeInLeft">Pernapasan</div>
+                        <div className="d-flex justify-content-center animate__animated animate__fadeInRight">
+                            <input className="form-control form-style col-md-4 searchMedicine" type="text" placeholder="Search for articles by title and category" />
                             <button className="btn whiteButton"><img className="icon-set-3" src="../src/img/icons/search.svg" alt="" /><label id="searchText" style={{ marginTop: '10px !important' }}>Search</label></button>
                         </div>
                     </div>
@@ -45,13 +45,16 @@ class Medicine extends Component {
                                             <p className="sub-detail">Per Strip</p>
                                             <p className="sub-detail">Rp. 13.000,-</p>
                                             <div className="row">
-                                                <div className="ml-2">
+                                                <div className="ml-2 mr-4">
                                                     <div className="circle-icon-1">-</div>
                                                 </div>
-                                                <div className="ml-2">
+                                                <div className="ml-2 sub-detail mt-1">
+                                                    2
+                                                </div>
+                                                <div className="ml-4 pl-2">
                                                     <div className="circle-icon-2">+</div>
                                                 </div>
-                                                <div className="d-flex justify-content-end col-md-9">
+                                                <div className="d-flex justify-content-end col-md-9 awdwaawdadwdw">
                                                     <svg className="circle-icon-3" id="Icon_feather-shopping-cart" data-name="Icon feather-shopping-cart" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 23.864 22.915">
                                                         <path id="Path_35" data-name="Path 35" d="M13.9,30.948A.948.948,0,1,1,12.948,30,.948.948,0,0,1,13.9,30.948Z" transform="translate(-3.862 -10.481)" fill="none" stroke="#d7547b" strokeLinecap="round" strokeLinejoin="round" strokeWidth="3" />
                                                         <path id="Path_36" data-name="Path 36" d="M30.4,30.948A.948.948,0,1,1,29.448,30,.948.948,0,0,1,30.4,30.948Z" transform="translate(-9.93 -10.481)" fill="none" stroke="#d7547b" strokeLinecap="round" strokeLinejoin="round" strokeWidth="3" />
@@ -64,7 +67,7 @@ class Medicine extends Component {
                                     </div>
                                 </div>
 
-                                <div className="card card-rounded col-md-12 set-padding-0 mt-5">
+                                <div className="card card-rounded col-md-12 set-padding-0 mt-1">
                                     <div className="card-body m-5">
                                         <div className="subheader-detail color-gray">Deskripsi Produk</div>
                                         <div className="sub-detail color-gray col-md-8 mt-3" style={{ marginLeft: '-15px' }}>

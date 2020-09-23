@@ -13,7 +13,7 @@ const Landing = () => {
                             <div className="header mb-4">
                                 Provide Solutions For Your Healthy Life
                             </div>
-                            <p className="content mb-4 col-md-9 set-content-1">
+                            <p className="content mb-5 col-md-9 set-content-1">
                                 Menyediakan beragam solusi untuk kebutuhan medis
                                 anda dengan mudah, aman  dan praktis tanpa harus
                                 meninggalkan rumah anda.

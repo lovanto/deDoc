@@ -13,7 +13,7 @@ const CardBlog = ({ dataArticles }) => {
                         <p className="card-text font-weight-bold category">{articles.category} | {articles.date}</p>
                         <h5 className="card-title">{articles.title}</h5>
                         <p className="card-text">{articles.description}</p>
-                        <div className="d-flex font-weight-bold justify-content-end">
+                        <div className="d-flex font-weight-bold justify-content-end adawdawd">
                             <Link to={`/detailpost/` + articles.url} className="">Read more &gt;&gt;</Link>
                         </div>
                     </div>

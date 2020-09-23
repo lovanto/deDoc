@@ -7,7 +7,7 @@ const DetailBlog = () => {
                 <div className="background-img mb-5" style={{ backgroundImage: 'url("../src/img/basics.jpg")' }}>
                 </div>
                 <div className="container mb-5 p-5">
-                    <div className="mr-5 pr-5 ml-5 pl-5">
+                    <div className="mr-5 pr-5 ml-5 pl-5 wadfeg3">
                         <p className="sub-detail mb-3">Basics Health  |  March 30, 2020</p>
                         <h2 className="header-detail mb-3">How to Ease Into a Healthy Diet</h2>
                         <p className="written-detail mb-5">Written by Jonathan Valdez, RDN, CDE, CPT</p>
@@ -33,11 +33,11 @@ const DetailBlog = () => {
 
                     Source: https://www.verywellfit.com/easing-into-a-healthy-diet-2507090
                     </div>
-                    <div className="mr-5 pr-5 ml-5 pl-5 mt-5">
+                    <div className="mr-5 pr-5 ml-5 pl-5 mt-5 wadfeg31">
                         <div className="row">
-                            <div className="backgroundPink icon-set-4 ml-4"><img src="../src/img/icons/white-love.png" alt="" width="25" /></div>
-                            <div className="written-detail mt-3 ml-4 col-md-2">128 Likes</div>
-                            <div className="col-md-8 d-flex justify-content-end">
+                            <div className="backgroundPink icon-set-4 ml-3"><img src="../src/img/icons/white-love.png" alt="" width="25" /></div>
+                            <div className="written-detail mt-3 ml-3">128 Likes</div>
+                            <div className="col-md-9 d-flex justify-content-end">
                                 <img className="mr-4" src="../src/img/icons/pink-facebook.svg" alt="" />
                                 <img className="mr-4" src="../src/img/icons/pink-twitter.svg" alt="" />
                                 <img src="../src/img/icons/pink-linkedin.svg" alt="" />
